@@ -16,7 +16,7 @@ class Annotation {
   }
 }
 
-export const PREFIX = "/src/lib/images/";
+export const PREFIX = "/images/";
 
 class Picture {
   filename: string;
