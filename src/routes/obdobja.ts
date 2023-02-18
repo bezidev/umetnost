@@ -19,7 +19,7 @@ export const OBDOBJA: Obdobje[] = [
   new Obdobje("Gotika", "Gotika slabšalno poimenovanje za nekaj barbarskega", "12. - 15. stoletje", "Francija"), // preveri informacije
   new Obdobje("Renesansa", "V renesansi so začeli uporabljati oljne barve. Pred tem so uporabljali beljak kot vezivo.", "15. - 16. stoletje", "Firence, Italija"), // preveri informacije
   new Obdobje("Barok", "", "17. - 18. stoletje", ""),
-  new Obdobje("Neoklasicizem", "Neoklasicizem se zgleduje po romantiki, ki se zgleduje po antiki. " +
+  new Obdobje("Neoklasicizem", "Neoklasicizem se zgleduje po renesansi, ki se zgleduje po antiki. " +
     "Antična belina je zanje sveta.", "konec 18. stoletja, začetek 19. stoletja", "Francija"),
   new Obdobje("Romantika", "Romantiki se uprejo neoklasicistom, tako da se oddaljijo od tega idealnega sveta, ki ga " +
     "prikazujejo v neoklasicizmu, ter jih bolj zanimajo skrajne čustvene situacije, umske bolezni, ponižnost pred naravo. " +

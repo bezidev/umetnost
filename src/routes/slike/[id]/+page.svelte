@@ -15,6 +15,7 @@
 </div>
 
 <h1>{data.picture.title}</h1>
+<span class="center-align">{data.picture.description}</span>
 <span class="center-align">{data.picture.author.join(" ")}, {data.picture.year}, {data.picture.period}, {data.picture.method}, {data.picture.origin}</span>
 <div class="image">
   {#each data.picture.annotations as annotation}
@@ -36,7 +37,7 @@
   }
 
   img {
-      height: 100%;
+      max-height: 80vh;
       width: 100%;
       object-fit: contain;
   }
@@ -47,5 +48,10 @@
       background: white;
       border: 3px solid black;
       border-radius: 7px;
+      transition: all .5s ease-in-out;
+  }
+
+  .annotation:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 </style>
