@@ -16,7 +16,7 @@ class Annotation {
   }
 }
 
-export const PREFIX = "/static/images/";
+export const PREFIX = "/images/";
 
 class Picture {
   filename: string;
@@ -185,22 +185,6 @@ export const PICTURES: Picture[] = [
       (new Annotation(60, 40, "Diagonalna kompozicija", "Na sliki je vidna diagonalna kompozicija.")).toJSON(),
     ],
     "https://www.wsj.com/articles/masterpiece-peter-paul-rubens-the-horrors-of-war-justus-susterman-medici-palatine-gallery-pitti-palace-nils-buttner-luc-duerloo-eighty-years-war-thirty-years-war-11657920643",
-  ),
-  new Picture(
-    "Velazques_Predaja_Brede.jpg",
-    "Predaja Brede",
-    "Breda je nizozemsko mesto, katerega so zavojevali Španci.",
-    "Olje na platnu",
-    ["Diego", "Velazques"],
-    "1634-1635",
-    "Barok",
-    "Španija",
-    [
-      (new Annotation(45, 51, "Poražena stran", "Leva, poražena stran se klanja zmagani strani. Sedaj morajo predati mesto z imenom Breda, katerega so branili dolgo časa pred napadalci.")).toJSON(),
-      (new Annotation(58, 48, "Zmagana stran", "Španski osvajalci ponosno prevzemajo Bredo.")).toJSON(),
-      (new Annotation(60, 5, "Vzvišene sulice", "Sulice so zmagoslavno vzvišene.")).toJSON(),
-    ],
-    "", // todo fix
   ),
   new Picture(
     "Velazques_Predaja_Brede.jpg",
