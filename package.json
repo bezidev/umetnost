@@ -10,8 +10,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"prepare": "npm run smui-theme-light && npm run smui-theme-dark",
-		"smui-theme-light": "smui-theme compile static/smui.css -i theme",
-		"smui-theme-dark": "smui-theme compile static/smui-dark.css -i theme/dark"
+		"smui-theme-light": "smui-theme compile public/smui.css -i theme",
+		"smui-theme-dark": "smui-theme compile public/smui-dark.css -i theme/dark"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
