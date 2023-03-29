@@ -120,7 +120,7 @@
 
 	<h2>O programu</h2>
 	Spletna stran je bila spisana kot projektna naloga pri prof. Šuštaršiču za informatiko.
-	Spletna stran je popolnoma odprtokodna, licencirana pod AGPLv3 licenco.
+	Spletna stran je <a href="https://github.com/bezidev/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
 	Kdorkoli lahko ureja te zapiske in jih pomaga izboljševati.
 	Če želite pomagati pri projektu, pa vendar ne znate ravno programirati, da bi dodali še kaj,
 	mi lahko kadarkoli pišete na šolski e-naslov <a href="mailto:mitja.severkar@gimb.org">mitja.severkar@gimb.org</a>.
