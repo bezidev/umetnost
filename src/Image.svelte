@@ -8,9 +8,10 @@
 	import { PICTURES, PREFIX } from './slike';
 	import { to_number } from 'svelte/internal';
   import { Obdobje } from "./obdobja";
+	import { navigate } from 'svelte-navigator';
 
-  export let id;
-  let data = {picture: PICTURES[to_number(id)]}
+  export let id: number;
+  let data = {picture: PICTURES[to_number(id)]};
 
   let title = "";
   let author: string = "";
@@ -29,6 +30,24 @@
   let hours = 0;
   let secs = 0;
 
+  function load() {
+    data = {picture: PICTURES[to_number(id)]};
+
+    title = "";
+    author = "";
+    year = "";
+    period = undefined;
+    country = "";
+    study = localStorage.getItem("mode") === "study";
+
+    titleCorrect = false;
+    authorCorrect = false;
+    showResults = false;
+    yearCorrect = false;
+    periodCorrect = false;
+    countryCorrect = false;
+  }
+
   function getRandomInteger(min: number, max: number) {
 		return Math.floor(Math.random() * (max - min)) + min;
 	} 
@@ -45,7 +64,8 @@
     while (true) {
       let rand = getRandomInteger(0, pictures.length)
       if (rand == t) continue;
-      window.location.href = `/slike/${rand}`;
+      navigate(`/slike/${rand}`);
+      load();
       return;
     }
 	}
@@ -144,7 +164,7 @@
 </script>
 
 <div style="position: absolute; top: 0; left: 0;">
-  <Button on:click={() => window.location.href = "/"} variant="raised">
+  <Button on:click={() => navigate("/")} variant="raised">
     <Icon class="material-icons">home</Icon>
     <Label>Prva stran</Label>
   </Button>
@@ -209,7 +229,7 @@
 {:else}
   <h1>{data.picture.title}</h1>
   <span class="center-align">{data.picture.description}</span>
-  <span class="center-align">{data.picture.author.join(" ")}, {data.picture.year}, {data.picture.period}, {data.picture.method}, {data.picture.origin}</span>
+  <span class="center-align">{data.picture.author.join(" ")}, {data.picture.year}, {data.picture.period}, {data.picture.method}, {data.picture.origin}, <a href={data.picture.source}>Vir slike</a></span>
 {/if}
 <div class="image">
   {#each data.picture.annotations as annotation}

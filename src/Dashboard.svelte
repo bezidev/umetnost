@@ -50,7 +50,7 @@
 
 	{#each OBDOBJA as obdobje}
 		<h2>{obdobje.name}</h2>
-		{obdobje.description}
+		{@html obdobje.description}
 		<br>
 		{#if obdobje.period !== ""}
 			{obdobje.period},
@@ -62,14 +62,16 @@
 		<p/>
 		{#each PICTURES as picture, i}
 			{#if picture.period === obdobje.name}
-				<div on:click={() => window.location.href = `/slike/${i}`}>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<div on:click={() => navigate(`/slike/${i}`)}>
 					<Paper>
+						<!-- svelte-ignore a11y-missing-attribute -->
 						<div style="display: inline-block; position: relative; height: 8vh;"><img src={`${PREFIX}${picture.filename}`} style="object-fit: contain; height: 100%;"></div>
 						<div style="width: 10px; display: inline-block;"></div>
 						<div style="display: inline-block;">
 							<Title>{picture.title}</Title>
 							<Subtitle>{picture.author.join(" ")}</Subtitle>
-							<Content>Klikni za analizo slike.</Content>
+							<Content>Klikni za analizo slike. {#if picture.annotations.length !== 0}<Icon class="material-icons">swipe_left</Icon>{/if}</Content>
 						</div>
 					</Paper>
 				</div>
