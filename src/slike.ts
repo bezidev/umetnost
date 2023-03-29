@@ -600,6 +600,6 @@ export const PICTURES: Picture[] = [
     [
       (new Annotation(70, 50, "Obraz", "Obraz daje vtis, da ženske gledami iz več strani hkrati.")).toJSON(),
     ],
-    "https://www.georgesbraque.org/violin-and-palette.jsp#prettyPhoto",
+    "https://en.wikipedia.org/wiki/File:Les_Demoiselles_d%27Avignon.jpg",
   ),
 ];
