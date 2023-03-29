@@ -30,6 +30,8 @@
   let hours = 0;
   let secs = 0;
 
+  let selected = JSON.parse(localStorage.getItem("exclude") === null ? "[]" : localStorage.getItem("exclude"));
+
   function load() {
     data = {picture: PICTURES[to_number(id)]};
 
@@ -61,10 +63,16 @@
         break;
       }
     }
+    let depth = 0;
     while (true) {
-      let rand = getRandomInteger(0, pictures.length)
+      depth++;
+      if (depth > 100) return;
+      let rand = getRandomInteger(0, pictures.length);
       if (rand == t) continue;
+      let picture = PICTURES[rand];
+      if (selected.includes(picture.period)) continue;
       navigate(`/slike/${rand}`);
+      id = rand;
       load();
       return;
     }
@@ -228,7 +236,7 @@
   </div>
 {:else}
   <h1>{data.picture.title}</h1>
-  <span class="center-align">{data.picture.description}</span>
+  <span class="center-align">{@html data.picture.description}</span>
   <span class="center-align">{data.picture.author.join(" ")}, {data.picture.year}, {data.picture.period}, {data.picture.method}, {data.picture.origin}, <a href={data.picture.source}>Vir slike</a></span>
 {/if}
 <div class="image">

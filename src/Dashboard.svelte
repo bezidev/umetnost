@@ -1,12 +1,14 @@
 <script lang="ts">
 	import { PICTURES } from "./slike";
-	import { OBDOBJA } from "./obdobja";
+	import { OBDOBJA, OBDOBJA_NAMES } from "./obdobja";
 	import Paper, { Title, Subtitle, Content } from '@smui/paper';
 	import { PREFIX } from "./slike.js";
 	import Switch from '@smui/switch';
   	import FormField from '@smui/form-field';
 	import { navigate } from "svelte-navigator";
 	import Button, { Icon, Label } from "@smui/button";
+	import Accordion, { Panel, Header, Content as AccordionContent } from '@smui-extra/accordion';
+	import SegmentedButton, { Segment } from '@smui/segmented-button';
 
 	let study = localStorage.getItem("mode") === "study";
 
@@ -18,8 +20,15 @@
 		let rand = getRandomInteger(0, PICTURES.length)
 		let timestamp = Date.now();
 		localStorage.setItem("timestamp", timestamp.toString());
+		let picture = PICTURES[rand];
+		if (selected.includes(picture.period)) {
+			random()
+			return;
+		}
 		navigate(`/slike/${rand}`)
 	}
+
+	let selected = JSON.parse(localStorage.getItem("exclude") === null ? "[]" : localStorage.getItem("exclude"));
 </script>
 
 <svelte:head>
@@ -31,6 +40,26 @@
 	<h1>
 		Umetnostna zgodovina
 	</h1>
+
+	<Accordion>
+		<Panel>
+			<Header>Obdobja</Header>
+			<AccordionContent>
+				Tukaj lahko izločite obdobja, ki jih ne pišete na testu. Program vam bo prikazoval samo slike iz obdobij, katerih niste izločili.
+				<p/>
+				<SegmentedButton segments={OBDOBJA_NAMES} let:segment bind:selected on:change={() => {
+					console.log(selected);
+					localStorage.setItem("exclude", JSON.stringify(selected));
+				}}>
+					<Segment segment={segment}>
+					  <Label>{segment}</Label>
+					</Segment>
+				  </SegmentedButton>
+			</AccordionContent>
+		</Panel>
+	</Accordion>
+	
+	<p/>
 
 	<FormField>
 		<Switch bind:checked={study} on:click={() => {
@@ -49,35 +78,37 @@
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
 	{#each OBDOBJA as obdobje}
-		<h2>{obdobje.name}</h2>
-		{@html obdobje.description}
-		<br>
-		{#if obdobje.period !== ""}
-			{obdobje.period},
-		{/if}
-		{#if obdobje.origin !== ""}
-			{obdobje.origin}
+		{#if !selected.includes(obdobje.name)}
+			<h2>{obdobje.name}</h2>
+			{@html obdobje.description}
 			<br>
-		{/if}
-		<p/>
-		{#each PICTURES as picture, i}
-			{#if picture.period === obdobje.name}
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<div on:click={() => navigate(`/slike/${i}`)}>
-					<Paper>
-						<!-- svelte-ignore a11y-missing-attribute -->
-						<div style="display: inline-block; position: relative; height: 8vh;"><img src={`${PREFIX}${picture.filename}`} style="object-fit: contain; height: 100%;"></div>
-						<div style="width: 10px; display: inline-block;"></div>
-						<div style="display: inline-block;">
-							<Title>{picture.title}</Title>
-							<Subtitle>{picture.author.join(" ")}</Subtitle>
-							<Content>Klikni za analizo slike. {#if picture.annotations.length !== 0}<Icon class="material-icons">swipe_left</Icon>{/if}</Content>
-						</div>
-					</Paper>
-				</div>
+			{#if obdobje.period !== ""}
+				{obdobje.period},
+			{/if}
+			{#if obdobje.origin !== ""}
+				{obdobje.origin}
 				<br>
 			{/if}
-		{/each}
+			<p/>
+			{#each PICTURES as picture, i}
+				{#if picture.period === obdobje.name}
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<div on:click={() => navigate(`/slike/${i}`)}>
+						<Paper>
+							<!-- svelte-ignore a11y-missing-attribute -->
+							<div style="display: inline-block; position: relative; height: 8vh;"><img src={`${PREFIX}${picture.filename}`} style="object-fit: contain; height: 100%;"></div>
+							<div style="width: 10px; display: inline-block;"></div>
+							<div style="display: inline-block;">
+								<Title>{picture.title}</Title>
+								<Subtitle>{picture.author.join(" ")}</Subtitle>
+								<Content>Klikni za analizo slike. {#if picture.annotations.length !== 0}<Icon class="material-icons">swipe_left</Icon>{/if}</Content>
+							</div>
+						</Paper>
+					</div>
+					<br>
+				{/if}
+			{/each}
+		{/if}
 	{/each}
 
 	<h2>Dodatni viri in zapiski</h2>
@@ -94,5 +125,8 @@
 	Če želite pomagati pri projektu, pa vendar ne znate ravno programirati, da bi dodali še kaj,
 	mi lahko kadarkoli pišete na šolski e-naslov <a href="mailto:mitja.severkar@gimb.org">mitja.severkar@gimb.org</a>.
 	Vaše predloge bom poskušal implementirati čim prej.
+	<p/>
+	Vse pravice pridržane. <br>
+	Copyright Mitja Ševerkar, 2023.
 	<p/>
 </section>

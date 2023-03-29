@@ -25,7 +25,7 @@ export const OBDOBJA: Obdobje[] = [
     "prikazujejo v neoklasicizmu, ter jih bolj zanimajo skrajne čustvene situacije, umske bolezni, ponižnost pred naravo. " +
     "Razum ne prevlada. Izrazi se predvsem v slikarstvu, v kiparstvu in arhitekturi ne toliko.", "konec 18. stoletja, začetek 19. stoletja", "Francija"),
   new Obdobje("Realizem", "V realizmu so se želeli oddaljiti od prejšnjih obdobij, ki so slikale predvsem ekstremne okoliščine oz. idealen svet. " +
-    'Zato so zaželi slikati čim bolj realne upodobitve sveta. Slike izgledajo kot naključne fotografije.' +
+    'Zato so zaželi slikati čim bolj realne upodobitve sveta. Slike izgledajo kot naključne fotografije. ' +
     'Uporabljajo rjavkasto-zelene barve, brez živahnih barv ter prosto kompozicijo. Courbet: Pokažite mi angela, pa ga bom naslikal.',
     "19. stoletje", "Pariz, Francija"),
   new Obdobje("Impresionizem", "Impresionizem je ekstremna oblika realizma. V tem obdobju so umetniki želeli naslikati vse najbolj realno možno. " +
@@ -54,6 +54,17 @@ export const OBDOBJA: Obdobje[] = [
   new Obdobje("Fauvizem", "", "20. stoletje", "Francija"),
   new Obdobje("Futurizem", "Futuriste zanima predvsem gibanje. Ne ozirajo se v preteklost, temveč v prihodnost. Bili so navdušeni nad vojno, kasneje sicer ne. Imeli so tudi manifest in prirejali razne zabave.", "20. stoletje", "Italija"),
   new Obdobje("Kubizem", "Paul Cezanne je začetnik kubizma. Uporabljajo tri osnovna telesa, valj, stožec in pa kroglo. Barve, kompozicija, čustva, vsebina in simbolika jih ne zanima.", "20. stoletje", "Francija"),
-  new Obdobje("Dadaizem", "Ime dadaizma izvira iz otroške govorice DADA. Želijo si videti svet kot otrok, tj. preko otroških oči. " + 
-    "", "20. stoletje", "lokal Cabaret Voltaire, Zürich, Švica"),
+  new Obdobje("Dadaizem", "Ime dadaizma izvira iz otroške govorice DADA. Želijo si videti svet kot otrok, tj. preko otroških oči, kot da ga vidijo popolnoma na novo. Bili so zelo proti vojni, zato so se tudi umaknili v Švico. Bili so zelo kritični do družbe in meščanskega razreda.", "20. stoletje", "lokal Cabaret Voltaire, Zürich, Švica"),
+  new Obdobje("Nadrealizem ali surrealizem", "surreal = nadresnično. Takrat so začeli spoznavati psihoanalizo in po zaslugi Sigmunda Freunda so izvedeli, da je razum sestavljen iz zavednega (10%) in nezavednega dela, posledično je surrealiste izjemno zanimal nezavedni del in sanje.", "20. stoletje", "Pariz, Francija [potrebuje potrditev]"),
+  new Obdobje("Abstraktna umetnost", "Abstraktna umetnost ni zvrst, temveč je način slikanja. Predstavlja vrhunec modernizma. Abstraktno slikarstvo se deli na: " +
+  "<li> Geometrijsko abstrakcijo in" +
+  "<li> Lirično abstrakcijo" +
+  "<p/> Če gremo malo nazaj po obdobjih, do kubizma, lahko vidimo, da je Paul Cezanne prvi, ki uporablja oblike - po njem so se umetniki v abstraktni umetnosti zgledovali.", "20. stoletje", "[potrebuje potrditev]"),
+  new Obdobje("Abstraktni ekspresionizem", "Abstraktni ekspresionizem je prva ameriška zvrst.", "20. stoletje", "ZDA"),
+  new Obdobje("Sodobna umetnost", "Vse spodaj naštete umetniške zvrsti sodijo v sodobno umetnost.", "1990 do danes", "Svet"),
+  new Obdobje("Konceptualna umetnost", "", "", ""),
+  new Obdobje("Video", "Film ima zgodbo, video pa je samo slika, ki se premika.", "", ""),
+  new Obdobje("Instalacija", "", "", ""),
 ];
+
+export let OBDOBJA_NAMES = OBDOBJA.map((e) => e.name);
