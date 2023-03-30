@@ -47,4 +47,3 @@ Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa v
 - Dopolni van Eyckovo sliko Giovanni Arnolfini
 - Naloži zapiske za La Venier
 - Dodaj proper vire
-
