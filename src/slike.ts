@@ -744,4 +744,16 @@ export const PICTURES: Picture[] = [
     [],
     "https://static.dezeen.com/uploads/2015/10/In-Infinity_Yayoi-Kusama_Louisiana-MoMA_dezeen_936_0.jpg",
   ),
+  new Picture(
+    "Beuys_Kako_razloziti_umetnost_mrtvemu_zajcu.jpg",
+    "Kako razložiti umetnost mrtvemu zajcu",
+    "",
+    "Performans",
+    ["Joseph", "Beuys"],
+    "",
+    "Performans",
+    "ZDA",
+    [],
+    "https://uploads4.wikiart.org/images/joseph-beuys/how-to-explain-pictures-to-a-dead-hare.jpg",
+  ),
 ];
