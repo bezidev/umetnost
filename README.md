@@ -23,4 +23,3 @@ Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa b
 - Naloži zapiske za La Venier
 - Dodaj gumb za naslednjo sliko pri ne-učenju
 - Dodaj proper vire
-
