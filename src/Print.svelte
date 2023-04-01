@@ -144,7 +144,7 @@
                                     {#each picturePart as picture}
                                         {#if picture.period === obdobje.name}
                                             <td>
-                                                {picture.description}
+                                                {@html picture.description}
                                             </td>
                                         {/if}
                                     {/each}

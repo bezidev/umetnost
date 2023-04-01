@@ -73,7 +73,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Porwanie_Europy.jpg",
   ),
   new Picture(
-    "Kavcic_Salomonova_sodba.jpg",
+    "Kavcic_Salomonova_sodba.webp",
     "Salomonova sodba",
     "",
     "Olje na platnu",
@@ -101,7 +101,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/1800-1820/salomonova-sodba-franc-kavcic-caucig?workId=1689",
   ),
   new Picture(
-    "Van_Eyck_Giovanni_Arnolfini_s_soprogo.jpg",
+    "Van_Eyck_Giovanni_Arnolfini_s_soprogo.webp",
     "Giovanni Arnolfini s soprogo",
     "To je portret Giovannija Arnolfinija in njegove soproge.",
     "Olje na platnu",
@@ -117,7 +117,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:The_Arnolfini_portrait_(1434).jpg",
   ),
   new Picture(
-    "David_Prisega_Horacijev.jpg",
+    "David_Prisega_Horacijev.webp",
     "Prisega Horacijev",
     "Na sliki trije bratje zaprisegajo svojo zvestobo Rimu in rimski državi. Kompozicija je trikotna.",
     "Olje na platnu",
@@ -129,7 +129,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David,_Le_Serment_des_Horaces.jpg",
   ),
   new Picture(
-    "David_Napoleon_na_prelazu_sv_Bernarda.jpg",
+    "David_Napoleon_na_prelazu_sv_Bernarda.webp",
     "Napoleon na prelazu sv. Bernarda",
     "Sliko je naslikal J. L. David, ki je bil neoklasicist. Neoklasicisti so bili znani po tem, da so podpirali Napoleona pri svojih osvajanjih in dejanjih.",
     "Olje na platnu",
@@ -143,7 +143,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David,_Le_Serment_des_Horaces.jpg",
   ),
   new Picture(
-    "Canova_Amor_in_Psihe.jpg",
+    "Canova_Amor_in_Psihe.webp",
     "Amor in Psihe",
     "Na sliki lahko zelo očitno vidimo t.i. antično belino, po kateri se vsi neoklasicisti zglejujejo. Snov je vzeta iz mitologije.",
     "Kip iz marmorja",
@@ -157,7 +157,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG",
   ),
   new Picture(
-    "Rubens_Strahote_vojne.jpg",
+    "Rubens_Strahote_vojne.webp",
     "Strahote vojne",
     "",
     "Olje na platnu",
@@ -172,7 +172,7 @@ export const PICTURES: Picture[] = [
     "https://www.wsj.com/articles/masterpiece-peter-paul-rubens-the-horrors-of-war-justus-susterman-medici-palatine-gallery-pitti-palace-nils-buttner-luc-duerloo-eighty-years-war-thirty-years-war-11657920643",
   ),
   new Picture(
-    "Velazques_Predaja_Brede.jpg",
+    "Velazques_Predaja_Brede.webp",
     "Predaja Brede",
     "Breda je nizozemsko mesto, katerega so zavojevali Španci.",
     "Olje na platnu",
@@ -188,7 +188,7 @@ export const PICTURES: Picture[] = [
     "", // todo fix
   ),
   new Picture(
-    "Tizian_Assunta.jpg",
+    "Tizian_Assunta.webp",
     "Assunta",
     "Slika predstavlja Marijino vnebovzetje.",
     "Kip iz marmorja",
@@ -203,7 +203,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Tizian_041.jpg",
   ),
   new Picture(
-    "Rafael_Madona_v_zelenju.jpg",
+    "Rafael_Madona_v_zelenju.webp",
     "Madona v zelenju",
     "Madona je Marijina sestra, ki je pazila na dojenčka Jezusa in dojenčka Janeza Krstnika.",
     "Olje na platnu",
@@ -215,7 +215,7 @@ export const PICTURES: Picture[] = [
     "https://sl.wikipedia.org/wiki/Slika:Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg",
   ),
   new Picture(
-    "Aquila_Apostoli_in_donator.png",
+    "Aquila_Apostoli_in_donator.webp",
     "Apostoli in donator",
     "",
     "Freska",
@@ -230,7 +230,7 @@ export const PICTURES: Picture[] = [
     "ABC umetnostne zgodovine: Delovni zvezek za prvi letnik gimnazij. Rokus Klett, 2007.",
   ),
   new Picture(
-    "Gericault_Splav_Meduze.jpg",
+    "Gericault_Splav_Meduze.webp",
     "Splav Meduze",
     "Slika povzame resnični dogodek, pri katerem je splav (Meduza) naplavil. Preživelo je malo ljudi, tisti ki pa so, so pa kasneje umrli zaradi dehidracije.",
     "Olje na platnu",
@@ -242,10 +242,10 @@ export const PICTURES: Picture[] = [
       (new Annotation(41, 42, "Kaos", "Na sliki vlada čisti kaos, kar je velik odmik od idealističnega neoklasicizma.")).toJSON(),
       (new Annotation(10, 68, "Preživeli", "Preživeli so se prehranjevali tudi s sopotniki (glej kanibalizem).")).toJSON(),
     ],
-    "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).webp",
   ),
   new Picture(
-    "Delacroix_Svoboda_vodi_ljudstvo.jpg",
+    "Delacroix_Svoboda_vodi_ljudstvo.webp",
     "Svoboda vodi ljudstvo",
     "Slika uprizarja francosko revolucijo, julija 1830.",
     "Olje na platnu",
@@ -260,7 +260,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
   ),
   new Picture(
-    "Delacroix_Sardanapalova_smrt.jpg",
+    "Delacroix_Sardanapalova_smrt.webp",
     "Sardanapalova smrt",
     "Na dani sliki še vedno vlada kaos, ki je tako značilen za romantiko.",
     "Olje na platnu",
@@ -272,7 +272,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Delacroix_-_La_Mort_de_Sardanapale_(1827).jpg",
   ),
   new Picture(
-    "Delacroix_Alzirke.jpg",
+    "Delacroix_Alzirke.webp",
     "Alžirke",
     "",
     "Olje na platnu",
@@ -284,7 +284,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:WomenofAlgiers.JPG",
   ),
   new Picture(
-    "Pernhart_Klansko_jezero_v_nevihti.jpg",
+    "Pernhart_Klansko_jezero_v_nevihti.webp",
     "Klanško jezero v nevihti",
     "",
     "Olje na platnu",
@@ -296,7 +296,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/1820-1870/klansko-jezero-v-nevihti-marko-pernhart?workId=1712",
   ),
   new Picture(
-    "Courbet_Pogreb_v_Ornansu.jpg",
+    "Courbet_Pogreb_v_Ornansu.webp",
     "Pogreb v Ornansu",
     "Na sliki se doogaja nek pogreb, upodobljen zelo realistično, kakor fotografija.",
     "Olje na platnu",
@@ -310,7 +310,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project_2.jpg",
   ),
   new Picture(
-    "Courbet_Umetnikov_atelje.jpg",
+    "Courbet_Umetnikov_atelje.webp",
     "Umetnikov atelje",
     "Slika sporoča ljudem, kako bi morali slikati.",
     "Olje na platnu",
@@ -324,7 +324,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Courbet_LAtelier_du_peintre.jpg",
   ),
   new Picture(
-    "Millet_Zene_ki_pobirajo_klase.jpg",
+    "Millet_Zene_ki_pobirajo_klase.webp",
     "Žene, ki pobirajo klase",
     "Slika predstavlja najnižji sloj, ki pobira ostanke za višjimi sloji. Slika upodablja revščino.",
     "Olje na platnu",
@@ -336,7 +336,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
   ),
   new Picture(
-    "Petkovsek_Doma.jpg",
+    "Petkovsek_Doma.webp",
     "Doma",
     "Slika upodablja dom Jožefa Petkovška. Petkovšek je bil večkrat oklican za slovenskega van Gogha.",
     "Olje na platnu",
@@ -355,7 +355,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/1870-1900/doma-jozef-petkovsek?workId=1749",
   ),
   new Picture(
-    "Subic_Pred_lovom.jpg",
+    "Subic_Pred_lovom.webp",
     "Pred lovom",
     "Slika upodablja kmeta iz Normandije, ki se odpravlja na lov.",
     "Olje na platnu",
@@ -369,7 +369,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/1870-1900/pred-lovom-jurij-subic?workId=1742",
   ),
   new Picture(
-    "Monet_Impresija_soncni_vzhod.jpg",
+    "Monet_Impresija_soncni_vzhod.webp",
     "Impresija, sončni vzhod",
     "Impresija = vtis. Slika pristanišča zjutraj, po tej sliki dobi impresionizem ime.",
     "Olje na platnu",
@@ -383,7 +383,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
   ),
   new Picture(
-    "Renoir_Le_Moulin_de_la_Galete.jpg",
+    "Renoir_Le_Moulin_de_la_Galete.webp",
     "Le Moulin de la Galete",
     "Impresija = vtis.",
     "Olje na platnu",
@@ -392,10 +392,10 @@ export const PICTURES: Picture[] = [
     "Impresionizem",
     "Pariz, Francija",
     [],
-    "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_(derivative_work_-_AutoContrast_edit_in_LCH_space).jpg",
+    "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_(derivative_work_-_AutoContrast_edit_in_LCH_space).webp",
   ),
   new Picture(
-    "Degas_Baletna_sola.jpg",
+    "Degas_Baletna_sola.webp",
     "Baletna šola",
     "Degas je rad slikal baletke. Zanima ga realnost, kako spadajo svetloba, prostor in barva skupaj.",
     "Olje na platnu",
@@ -407,7 +407,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_La_Classe_de_danse.jpg",
   ),
   new Picture(
-    "Grohar_Pomlad.jpg",
+    "Grohar_Pomlad.webp",
     "Pomlad",
     "Slika simbolizira pomlad narodov.",
     "Olje na platnu",
@@ -419,7 +419,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/1900-1918/pomlad-ivan-grohar?workId=1780",
   ),
   new Picture(
-    "Jakopic_Sava.jpg",
+    "Jakopic_Sava.webp",
     "Sava",
     "Počasi že prehaja v abstraktno slikarstvo.",
     "Olje na vezani plošči",
@@ -431,7 +431,7 @@ export const PICTURES: Picture[] = [
     "https://www.ng-slo.si/si/stalna-zbirka/od-1918-dalje/sava-rihard-jakopic?workId=3732",
   ),
   new Picture(
-    "Van_Gogh_Zvezdna_noc.jpg",
+    "Van_Gogh_Zvezdna_noc.webp",
     "Zvezdna noč",
     "",
     "Olje na platnu",
@@ -448,7 +448,7 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
   ),
   new Picture(
-    "Gauguin_Rumeni_Kristus.jpg",
+    "Gauguin_Rumeni_Kristus.webp",
     "Rumeni Kristus",
     "Rumena barva predstavlja njegovo doživljanje sveta. S tem, da pobarva vse z eno barvo izniči telesnost.",
     "Olje na platnu",
@@ -460,7 +460,7 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Gauguin_Il_Cristo_giallo.jpg",
   ),
   new Picture(
-    "Gauguin_Rdeci_pes.jpg",
+    "Gauguin_Rdeci_pes.webp",
     "Rdeči pes",
     "",
     "Olje na platnu",
@@ -474,7 +474,7 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Gauguin_Il_Cristo_giallo.jpg",
   ),
   new Picture(
-    "Kirchner_Avtoportret_z_modelom.jpg",
+    "Kirchner_Avtoportret_z_modelom.webp",
     "Avtoportret z modelom",
     "",
     "Olje na platnu",
@@ -486,7 +486,7 @@ export const PICTURES: Picture[] = [
     "https://sl.wikipedia.org/wiki/Slika:Kirchner_-_Selbstbildnis_mit_Modell.jpg",
   ),
   new Picture(
-    "Nolde_Ples_okrog_zlatega_teleta.jpg",
+    "Nolde_Ples_okrog_zlatega_teleta.webp",
     "Ples okrog zlatega teleta",
     "",
     "Olje na platnu",
@@ -498,7 +498,7 @@ export const PICTURES: Picture[] = [
     "https://www.wikiart.org/en/emil-nolde/dance-around-the-golden-calf-1910",
   ),
   new Picture(
-    "Matisse_Zelena_crta.jpg",
+    "Matisse_Zelena_crta.webp",
     "Zelena črta (Portret gospe Matisse)",
     "Matisse ni niti malo družbeno kritičen v tej sliki, saj riše samo svojo ženo.",
     "Olje na platnu",
@@ -524,7 +524,7 @@ export const PICTURES: Picture[] = [
     "https://arthive.com/sl/henrimatisse/works/217362~Ples_II",
   ),
   new Picture(
-    "Boccioni_Stanje_duha_Slovo.jpg",
+    "Boccioni_Stanje_duha_Slovo.webp",
     "Stanje duha: Slovo",
     "Okolice na sliki ne vidimo jasno - posledično je možnih več predstav (parna lokomotiva ipd.), fragmentirani vtisi.",
     "Olje na platnu",
@@ -536,7 +536,7 @@ export const PICTURES: Picture[] = [
     "https://www.moma.org/collection/works/78648",
   ),
   new Picture(
-    "Balla_Pes_na_vrvici.jpg",
+    "Balla_Pes_na_vrvici.webp",
     "Pes na vrvici",
     "Na tej sliki se lahko izjemno dobro vidi, kako je avtorja kot futurista zanimalo predvsem gibanje.",
     "Olje na platnu",
@@ -550,7 +550,7 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Giacomo_Balla,_1912,_Dynamism_of_a_Dog_on_a_Leash,_oil_on_canvas,_89.8_x_109.8_cm,_Albright-Knox_Art_Gallery.jpg",
   ),
   new Picture(
-    "Boccioni_Edinstvene_oblike_nadaljevanja_v_prostoru.jpg",
+    "Boccioni_Edinstvene_oblike_nadaljevanja_v_prostoru.webp",
     "Edinstvene oblike nadaljevanja v prostoru",
     "Diagonala predstavlja gibanje",
     "Bron",
@@ -562,7 +562,7 @@ export const PICTURES: Picture[] = [
     "https://www.moma.org/collection/works/81179",
   ),
   new Picture(
-    "Braque_Tihozitje_z_violino_in_vrcem.jpg",
+    "Braque_Tihozitje_z_violino_in_vrcem.webp",
     "Tihožitje z violino in vrčem",
     "Uporablja tri osnovna telesa, valj, stožec in pa kroglo. Nima vsebine, nima čustev in nima simbolike. Samo likovni elementi nakazujejo na slikarsko avtonomijo. Predmeti dodajo telesnost.",
     "Olje na platnu",
@@ -574,7 +574,7 @@ export const PICTURES: Picture[] = [
     "https://www.georgesbraque.org/violin-and-palette.jsp#prettyPhoto",
   ),
   new Picture(
-    "Picasso_Avignonske_gospodicne.jpg",
+    "Picasso_Avignonske_gospodicne.webp",
     "Avignonske gospodične",
     "Picassova prva kubistična slika, katero je zelo dolgo skrival pred svetom. Ta slika predstavlja preboj v umetnosti, kot nekaj abstraktnega.",
     "Olje na platnu",
@@ -588,7 +588,7 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Les_Demoiselles_d%27Avignon.jpg",
   ),
   new Picture(
-    "Duchamp_Fontana.jpg",
+    "Duchamp_Fontana.webp",
     "Fontana",
     "",
     "Keramika",
@@ -618,7 +618,7 @@ export const PICTURES: Picture[] = [
     "https://arthive.com/sl/salvadordali/works/316548~Vztrajnost_spomina",
   ),
   new Picture(
-    "Dali_Uganka_pozelenja.jpg",
+    "Dali_Uganka_pozelenja.webp",
     "Uganka poželenja - moja mama, moja mama, moja mama",
     "",
     "Olje na platnu",
@@ -633,7 +633,7 @@ export const PICTURES: Picture[] = [
     "https://spanishartinternalconflict.weebly.com/the-enigma-of-my-desire-or-my-mother-my-mother-my-mother.html",
   ),
   new Picture(
-    "Mondrian_Abstrahiranje_dreves.jpg",
+    "Mondrian_Abstrahiranje_dreves.webp",
     "Abstrahiranje drevesa",
     "Mondrian lahko karkoli vidi upodobi s črtami in tremi barvami. Slika je lep dokaz tega. Slika je geometrijska abstrakcija.",
     "Olje na platnu",
@@ -645,7 +645,7 @@ export const PICTURES: Picture[] = [
     "https://www.arthistoryproject.com/artists/piet-mondrian/composition-no-3/",
   ),
   new Picture(
-    "Mondrian_Broadway_boogie_woogie.jpg",
+    "Mondrian_Broadway_boogie_woogie.webp",
     "Broadway Boogie Woogie",
     "Boogie Woogie je ples, posledično ta slika prikazuje tloris Broadwaya, ko ljudje tam plešejo ta ples. Slika je geometrijska abstrakcija.",
     "Olje na platnu",
@@ -657,7 +657,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
   ),
   new Picture(
-    "Malevic_Suprematisticna_kompozicija_Belo_na_belem.png",
+    "Malevic_Suprematisticna_kompozicija_Belo_na_belem.webp",
     "Suprematistična kompozicija: Belo na belem",
     "Slika je bila obešena pod kotom 45°. Slika predstavlja bel kvadrat na belem ozadju. Slika je geometrijska abstrakcija.",
     "Olje na platnu",
@@ -669,7 +669,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:White_on_White_(Malevich,_1918).png",
   ),
   new Picture(
-    "Kandinski_Kompozicija_4.jpg",
+    "Kandinski_Kompozicija_4.webp",
     "Kompozicija 4",
     "Slika je lirična abstrakcija. Zanje so značilni glasbeni naslovi, da se ves čas primerja z glasbo in je brez vsebin, zgodbe.",
     "Olje na platnu",
@@ -681,7 +681,7 @@ export const PICTURES: Picture[] = [
     "https://www.wikiart.org/en/wassily-kandinsky/composition-iv-1911",
   ),
   new Picture(
-    "Pollock_Jesenski_ritmi.jpg",
+    "Pollock_Jesenski_ritmi.webp",
     "Jesenski ritmi",
     "Ta slika je del t.i. action paintinga, drip paintinga oz. škropljenja - poglejte si video na <a href='https://www.sfmoma.org/watch/jackson-pollocks-drip-painting-process/'>tej</a> spletni strani za izgled.",
     "Barva na platnu",
@@ -693,7 +693,7 @@ export const PICTURES: Picture[] = [
     "https://www.jackson-pollock.org/autumn-rhythm.jsp",
   ),
   new Picture(
-    "Koshut_Stol.jpg",
+    "Koshut_Stol.webp",
     "Stol",
     "",
     "Kompozicija",
@@ -709,7 +709,7 @@ export const PICTURES: Picture[] = [
     "https://www.tate.org.uk/art/artworks/marclay-the-clock-t14038",
   ),
   new Picture(
-    "Marclay_The_Clock.jpg",
+    "Marclay_The_Clock.webp",
     "The Clock",
     "Marclay je iz mnogo filmov izrezal prizore, v katerih se je pojavila ura, jih sestavil skupaj in tako je nastal video, ki se vrti dvanajst ur. Ko se video konča, se začne znova. Tako obiskovalec ves čas ve, kolikšna ura je, saj se video vrti sinhronizirano z lokalnim časom. Video opozarja gledalca na pomen časa, ki je neprecenljiv.",
     "Video",
@@ -721,7 +721,7 @@ export const PICTURES: Picture[] = [
     "https://www.moma.org/collection/works/81435",
   ),
   new Picture(
-    "Kusama_Obliteration_room.jpg",
+    "Kusama_Obliteration_room.webp",
     "Obliteration room",
     "Jayoi je v galeriji odprla popolnoma belo, prazno sobo, nakar je dala vsakemu obiskovalcu nekaj barvnih nalepk, katere so lahko nalepili kamor so želeli. Nastala je pikčasta soba.",
     "Instalacija",
@@ -733,7 +733,7 @@ export const PICTURES: Picture[] = [
     "https://www.youtube.com/watch?v=-xNzr-fJHQw",
   ),
   new Picture(
-    "Kusama_Polka_dot.jpg",
+    "Kusama_Polka_dot.webp",
     "Polka dot",
     "",
     "Instalacija",
@@ -745,7 +745,7 @@ export const PICTURES: Picture[] = [
     "https://static.dezeen.com/uploads/2015/10/In-Infinity_Yayoi-Kusama_Louisiana-MoMA_dezeen_936_0.jpg",
   ),
   new Picture(
-    "Beuys_Kako_razloziti_umetnost_mrtvemu_zajcu.jpg",
+    "Beuys_Kako_razloziti_umetnost_mrtvemu_zajcu.webp",
     "Kako razložiti umetnost mrtvemu zajcu",
     "",
     "Performans",
@@ -760,7 +760,7 @@ export const PICTURES: Picture[] = [
     "https://uploads4.wikiart.org/images/joseph-beuys/how-to-explain-pictures-to-a-dead-hare.jpg",
   ),
   new Picture(
-    "Abramovic_Ulay_Hoja_po_kitajskem_zidu.jpg",
+    "Abramovic_Ulay_Hoja_po_kitajskem_zidu.webp",
     "Hoja po kitajskem zidu",
     "Po več letih sodelovanja sta se Abramovićeva in Ulay odločila, da je čas, da se prekine njuno razmerje. Vsak izmed njiju je začel hoditi na drugi strani kitajskega zida. Enkrat sta se srečala in se takrat odločila, da je njuno razmerje končano.",
     "Performans",
@@ -772,7 +772,7 @@ export const PICTURES: Picture[] = [
     "https://www.theguardian.com/travel/2020/apr/25/marina-abramovic-ulay-walk-the-great-wall-of-china",
   ),
   new Picture(
-    "Banksy.jpg",
+    "Banksy.webp",
     "Banksy",
     "Spodaj je en primer Banksyjeve slike, katere pa ne opisujem. Banksy je izjemno družbeno kritičen, za risanje teh grafitov uporablja šablone (stencile), ki mu omogočajo, da to šablono samo 'prešprica' z barvo in hitro odide, preden ga kdo prepozna. Za Banksyja še vedno ne vemo resnične identitete.",
     "Grafit",
@@ -784,7 +784,7 @@ export const PICTURES: Picture[] = [
     "https://www.theguardian.com/travel/2020/apr/25/marina-abramovic-ulay-walk-the-great-wall-of-china",
   ),
   new Picture(
-    "Sherman_Brez_naslova.jpg",
+    "Sherman_Brez_naslova.webp",
     "Brez naslova",
     "Navadno avtor slike v njej nastopa, nekdo drug pa slika tega avtorja. Tako je tudi v primeru te slike, na kateri lahko vidimo avtorico Cindy Sherman. Avtorica v tej sliki naslavlja vprašanje identitete.",
     "Fotografija",
@@ -796,7 +796,7 @@ export const PICTURES: Picture[] = [
     "https://www.moma.org/learn/moma_learning/cindy-sherman-untitled-film-stills-1977-80/",
   ),
   new Picture(
-    "Kruger_I_shop_therefore_I_am.jpg",
+    "Kruger_I_shop_therefore_I_am.webp",
     "I shop, therefore I am",
     "Avtorica je v tej sliki izjemno družbeno kritična do današnje potrošniške družbe in kapitalističnega režima. Avtorica je poleg te slike znana tudi po drugih montažah s črno fotografijo in rdečim napisom, z neko sporočilnostjo.",
     "Fotomontaža",
@@ -808,7 +808,7 @@ export const PICTURES: Picture[] = [
     "https://publicdelivery.org/barbara-kruger-i-shop/",
   ),
   new Picture(
-    "Hirst_Kraljestvo_oceta.jpg",
+    "Hirst_Kraljestvo_oceta.webp",
     "Kraljestvo očeta",
     "Sprva bi se marsikomu zdelo, da so to neki vitraži, ampak niso. Hirst je prilepil mrtve metulje na neko platno in s tem poustvaril izgled vitraža. S tem se je želel vrniti proti gotiki.",
     "Objekti",
@@ -820,7 +820,7 @@ export const PICTURES: Picture[] = [
     "https://www.thebroad.org/art/damien-hirst/kingdom-father",
   ),
   new Picture(
-    "Koons_Michael_Jackson_and_Bubbles.jpg",
+    "Koons_Michael_Jackson_and_Bubbles.webp",
     "Michael Jackson and Bubbles",
     "Na sliki lahko vidimo Michaela Jacksona z njegovo opico, Bubblesom.",
     "Objekti",
@@ -832,7 +832,7 @@ export const PICTURES: Picture[] = [
     "https://www.billboard.com/music/music-news/jeff-koons-controversial-michael-jackson-sculpture-the-story-behind-it-6150392/",
   ),
   new Picture(
-    "Emin_Nepospravljiva_postelja.jpg",
+    "Emin_Nepospravljiva_postelja.webp",
     "Nepospravljiva postelja",
     "Na sliki lahko vidimo ogromno smeti, veliko nečistoče, posledično je to nepospravljiva postelja.",
     "Instalacija",
@@ -844,7 +844,7 @@ export const PICTURES: Picture[] = [
     "https://www.widewalls.ch/magazine/tracey-emin-my-bed",
   ),
   new Picture(
-    "IRWIN_Crni_kvadrat_na_Rdecem_trgu.jpg",
+    "IRWIN_Crni_kvadrat_na_Rdecem_trgu.webp",
     "Črni kvadrat na Rdečem trgu",
     "Slovenska umetniška skupina IRWIN je postavila velik črni kvadrat na osrednjem ruskem trgu (glej Rdeči trg). Ta performans je trajal okoli 30 minut. IRWIN-i so ustanovitelji likovne skupine Neue Slowenische Kunst (novo-slovenska umetnost).",
     "Performans",
@@ -856,7 +856,7 @@ export const PICTURES: Picture[] = [
     "https://commons.wikimedia.org/wiki/File:IRWIN_Black_Square_on_Red_Square_1992.jpg",
   ),
   new Picture(
-    "IRWIN_Kapital.jpg",
+    "IRWIN_Kapital.webp",
     "Kapital",
     "",
     "Instalacija",
