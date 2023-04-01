@@ -91,7 +91,7 @@
                                     {#if picture.period === obdobje.name}
                                         <td>
                                             <div style="position: relative">
-                                                <div style="max-width: 28vw; max-height: 50vh;">
+                                                <div style="max-width: 27vw; max-height: 50vh;">
                                                     {#if !exclude.includes("anotacije")}
                                                         {#each picture.annotations as annotation, i}
                                                             <div style="top: {annotation.y}%; left: {annotation.x}%; width: 100%; position: absolute; z-index: 1;">
@@ -99,7 +99,7 @@
                                                             </div>
                                                         {/each}
                                                     {/if}
-                                                    <img use:onload src={`${PREFIX}${picture.filename}`} style="position: relative; z-index: 0; max-width: 28vw; max-height: 50vh;">
+                                                    <img use:onload src={`${PREFIX}${picture.filename}`} style="position: relative; z-index: 0; max-width: 27vw; max-height: 50vh;">
                                                 </div>
                                             </div>
                                         </td>
