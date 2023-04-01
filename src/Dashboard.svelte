@@ -29,6 +29,7 @@
 	}
 
 	let selected = JSON.parse(localStorage.getItem("exclude") === null ? "[]" : localStorage.getItem("exclude"));
+	let exclude = JSON.parse(localStorage.getItem("excludePrint") === null ? "[]" : localStorage.getItem("excludePrint"));
 </script>
 
 <svelte:head>
@@ -75,13 +76,31 @@
 		</Button>
 	{/if}
 
+	<p/>
+	Tukaj lahko izločite stvari, ki jih ne želite imeti v tisku.
+	<br>
+	<SegmentedButton segments={["ime", "avtor", "opis", "anotacije"]} let:segment bind:selected={exclude} on:change={() => {
+		localStorage.setItem("excludePrint", JSON.stringify(exclude));
+	}}>
+		<Segment segment={segment}>
+			<Label>{segment}</Label>
+		</Segment>
+	</SegmentedButton>
+	<p/>
+	<Button on:click={() => navigate("/print")} variant="raised">
+		<Icon class="material-icons">print</Icon>
+		<Label>Natisni izbrane slike</Label>
+	</Button>
+
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
 	{#each OBDOBJA as obdobje}
 		{#if !selected.includes(obdobje.name)}
 			<h2>{obdobje.name}</h2>
-			{@html obdobje.description}
-			<br>
+			{#if obdobje.description !== ""}
+				{@html obdobje.description}
+				<br>
+			{/if}
 			{#if obdobje.period !== ""}
 				{obdobje.period},
 			{/if}
@@ -120,7 +139,7 @@
 
 	<h2>O programu</h2>
 	Spletna stran je bila spisana kot projektna naloga pri prof. Šuštaršiču za informatiko.
-	Spletna stran je <a href="https://github.com/bezidev/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
+	Spletna stran je <a href="https://github.com/mytja/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
 	Kdorkoli lahko ureja te zapiske in jih pomaga izboljševati.
 	Če želite pomagati pri projektu, pa vendar ne znate ravno programirati, da bi dodali še kaj,
 	mi lahko kadarkoli pišete na šolski e-naslov <a href="mailto:mitja.severkar@gimb.org">mitja.severkar@gimb.org</a>.

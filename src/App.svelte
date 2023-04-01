@@ -1,7 +1,9 @@
 <script lang="ts">
-    import { Router, Link, Route } from "svelte-navigator";
+    import { Router, Route } from "svelte-navigator";
+	import { to_number } from "svelte/internal";
 	import Dashboard from "./Dashboard.svelte";
     import Image from "./Image.svelte";
+	import Print from "./Print.svelte";
 </script>
 
 <Router>
@@ -10,7 +12,10 @@
 			<Dashboard />
 		</Route>
 		<Route path="/slike/:id" let:params>
-			<Image id={params.id} />
+			<Image id={to_number(params.id)} />
 		</Route>
 	</main>
+	<Route path="/print">
+		<Print />
+	</Route>
 </Router>

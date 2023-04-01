@@ -18,8 +18,6 @@
 
 .app {
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 }
 
@@ -32,6 +30,27 @@ main {
 	max-width: 64rem;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+.annotation {
+	width: 7px;
+	height: 7px;
+	background: white;
+	border: 3px solid black;
+	border-radius: 7px;
+	transition: all .5s ease-in-out;
+}
+
+.big-annotation {
+	width: 10px;
+	height: 10px;
+	background: white;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.annotation:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .line {

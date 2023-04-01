@@ -66,6 +66,10 @@ export const OBDOBJA: Obdobje[] = [
   new Obdobje("Video", "Film ima zgodbo, video pa je samo slika, ki se premika.", "", ""),
   new Obdobje("Instalacija", "", "", ""),
   new Obdobje("Performans", "Mešanica med likovno umetnostjo in gledališčem", "", ""),
+  new Obdobje("Street Art", "oz. ulična umetnost.", "", ""),
+  new Obdobje("Fotografija", "Pri fotografiji navadno nekdo drug slika avtorja te fotografije (tj. na sliki je avtor, katerega je slikal nekdo drug).", "", ""),
+  new Obdobje("Fotomontaža", "Fotomontaža je slika, katero kasneje tudi dodatno računalniško obdelajo.", "", ""),
+  new Obdobje("Objekti", "", "", ""),
 ];
 
 export let OBDOBJA_NAMES = OBDOBJA.map((e) => e.name);

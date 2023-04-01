@@ -263,17 +263,4 @@
       width: 100%;
       object-fit: contain;
   }
-
-  .annotation {
-      width: 7px;
-      height: 7px;
-      background: white;
-      border: 3px solid black;
-      border-radius: 7px;
-      transition: all .5s ease-in-out;
-  }
-
-  .annotation:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
 </style>
