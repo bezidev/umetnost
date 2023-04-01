@@ -137,6 +137,9 @@
 	<li>dr. Tanja Mastnak - profesorica umetnosti na Gimnaziji Bežigrad</li>
 	<li>Zapiski 1.A v letu 2022/2023 za 1. test umetnostne zgodovine</li>
 
+	<h2>Dodatne opombe</h2>
+	<li>Pri iskanju slik sem se vedno potrudil poiskati čim večje. Pri sodobni umetnosti je šlo na tesno, saj je večina avtorjev še živih oz. ni minilo 70 let od njihove smrti. To pomeni, da so te slike še vedno pokrite pod zakoni o avtorskih pravicah, posledično jih Wikipedija ne sme naložiti v večjih resolucijah. Menim, da je uporaba trenutnih slik pokrita pod <a href="https://sl.wikipedia.org/wiki/Po%C5%A1tena_uporaba">pošteno rabo</a> (glej <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>) z namenom obveščanja javnosti in pouka. Od te spletne strani ne služim denarja in nikoli ne bom, saj je ta spletna stran namenjena izključno uporabi v izobraževalne namene in ne oglaševanju kakršnekoli vrste. Vse avtorske pravice posamičnih slik pripadajo pripadajočim avtorjem.</li>
+
 	<h2>O programu</h2>
 	Spletna stran je bila spisana kot projektna naloga pri prof. Šuštaršiču za informatiko.
 	Spletna stran je <a href="https://github.com/mytja/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
