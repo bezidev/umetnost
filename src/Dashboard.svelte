@@ -94,6 +94,11 @@
 
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
+	<h2>L'avenir</h2>
+	V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
+	<li><a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a></li>
+	<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
+
 	{#each OBDOBJA as obdobje}
 		{#if !selected.includes(obdobje.name)}
 			<h2>{obdobje.name}</h2>
