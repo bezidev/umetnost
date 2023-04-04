@@ -98,6 +98,11 @@
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
 	<h3>4. 4. 2023</h3>
+	Ob 22.20:
+	<li><b>POMEMBNO: Dodana je bila slika Kandinskega, s tremi jezdeci. Ta sodi v abstraktno umetnost.</b></li>
+
+	<p/>
+	
 	Ob 22.05:
 	<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
 	<li>Vprašal sem prof. Tanjo Mastnak in dodatno potrdil dejstva: surrealizem se res začne v Franciji, abstraktna umetnost pa je vsepovsod po svetu in nima svojega začetka v kaki specifični lokaciji.</li>

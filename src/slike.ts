@@ -682,6 +682,18 @@ export const PICTURES: Picture[] = [
     "https://www.wikiart.org/en/wassily-kandinsky/composition-iv-1911",
   ),
   new Picture(
+    "Kandinski_S_tremi_jezdeci.webp",
+    "S tremi jezdeci",
+    "",
+    "Olje na platnu",
+    ["Vasilij", "Kandinski"],
+    "1910",
+    "Abstraktna umetnost",
+    "Rusija",
+    [],
+    "https://artvee.com/dl/with-three-riders/",
+  ),
+  new Picture(
     "Pollock_Jesenski_ritmi.webp",
     "Jesenski ritmi",
     "Ta slika je del t.i. action paintinga, drip paintinga oz. škropljenja - poglejte si video na <a href='https://www.sfmoma.org/watch/jackson-pollocks-drip-painting-process/'>tej</a> spletni strani za izgled.",
