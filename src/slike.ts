@@ -365,6 +365,7 @@ export const PICTURES: Picture[] = [
     "Slovenija",
     [
       (new Annotation(68, 50, "Barve", "Za realizem so značilne temačnejše barve, čemur pa tukaj ni tako. To nakazuje na to, da je avtor že deloma v prihajajočih umetniških zvrsteh. Posledično ta slika ni čisto realistična.")).toJSON(),
+      (new Annotation(50, 30, "Vrata", "Vrata predstavljajo prehod v nova obdobja.")).toJSON(),
     ],
     "https://www.ng-slo.si/si/stalna-zbirka/1870-1900/pred-lovom-jurij-subic?workId=1742",
   ),

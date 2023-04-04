@@ -94,6 +94,15 @@
 
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
+	<h2>Zadnje spremembe</h2>
+	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
+
+	<h3>4. 4. 2023</h3>
+	Ob 22.05:
+	<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
+	<li>Vprašal sem prof. Tanjo Mastnak in dodatno potrdil dejstva: surrealizem se res začne v Franciji, abstraktna umetnost pa je vsepovsod po svetu in nima svojega začetka v kaki specifični lokaciji.</li>
+	<li>Dodal sem še opis vrat pri sliki Pred lovom, slikarja Šubica.</li>
+
 	<h2>L'avenir</h2>
 	V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
 	<li><a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a></li>

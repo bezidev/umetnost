@@ -55,11 +55,11 @@ export const OBDOBJA: Obdobje[] = [
   new Obdobje("Futurizem", "Futuriste zanima predvsem gibanje. Ne ozirajo se v preteklost, temveč v prihodnost. Bili so navdušeni nad vojno, kasneje sicer ne. Imeli so tudi manifest in prirejali razne zabave.", "20. stoletje", "Italija"),
   new Obdobje("Kubizem", "Paul Cezanne je začetnik kubizma. Uporabljajo tri osnovna telesa, valj, stožec in pa kroglo. Barve, kompozicija, čustva, vsebina in simbolika jih ne zanima.", "20. stoletje", "Francija"),
   new Obdobje("Dadaizem", "Ime dadaizma izvira iz otroške govorice DADA. Želijo si videti svet kot otrok, tj. preko otroških oči, kot da ga vidijo popolnoma na novo. Bili so zelo proti vojni, zato so se tudi umaknili v Švico. Bili so zelo kritični do družbe in meščanskega razreda.", "20. stoletje", "lokal Cabaret Voltaire, Zürich, Švica"),
-  new Obdobje("Nadrealizem ali surrealizem", "surreal = nadresnično. Takrat so začeli spoznavati psihoanalizo in po zaslugi Sigmunda Freunda so izvedeli, da je razum sestavljen iz zavednega (10%) in nezavednega dela, posledično je surrealiste izjemno zanimal nezavedni del in sanje.", "20. stoletje", "Pariz, Francija [potrebuje potrditev]"),
+  new Obdobje("Nadrealizem ali surrealizem", "surreal = nadresnično. Takrat so začeli spoznavati psihoanalizo in po zaslugi Sigmunda Freunda so izvedeli, da je razum sestavljen iz zavednega (10%) in nezavednega dela, posledično je surrealiste izjemno zanimal nezavedni del in sanje.", "20. stoletje", "Francija"),
   new Obdobje("Abstraktna umetnost", "Abstraktna umetnost ni zvrst, temveč je način slikanja. Predstavlja vrhunec modernizma. Abstraktno slikarstvo se deli na: " +
   "<li> Geometrijsko abstrakcijo in" +
   "<li> Lirično abstrakcijo" +
-  "<p/> Če gremo malo nazaj po obdobjih, do kubizma, lahko vidimo, da je Paul Cezanne prvi, ki uporablja oblike - po njem so se umetniki v abstraktni umetnosti zgledovali.", "20. stoletje", "[potrebuje potrditev]"),
+  "<p/> Če gremo malo nazaj po obdobjih, do kubizma, lahko vidimo, da je Paul Cezanne prvi, ki uporablja oblike - po njem so se umetniki v abstraktni umetnosti zgledovali.", "20. stoletje", "razno"),
   new Obdobje("Abstraktni ekspresionizem", "Abstraktni ekspresionizem je prva ameriška zvrst.", "20. stoletje", "ZDA"),
   new Obdobje("Sodobna umetnost", "Vse spodaj naštete umetniške zvrsti sodijo v sodobno umetnost.", "1990 do danes", "Svet"),
   new Obdobje("Konceptualna umetnost", "", "", ""),
