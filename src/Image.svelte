@@ -20,6 +20,7 @@
   let period: Obdobje;
   let country = "";
   let study = localStorage.getItem("mode") === "study";
+  let textStandard = '';
 
   let titleCorrect = false;
   let authorCorrect = false;
@@ -224,10 +225,11 @@
   <div>
     <Textfield bind:value={author} label="Avtor" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
     <Textfield bind:value={year} label="Letnica" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
-    <Autocomplete bind:value={period} label="Obdobje ali slog"
-      style="width: 23%;" textfield$style="width: 100%;" options={OBDOBJA}
-      getOptionLabel={(option) => option ? option.name : ''}
-    />
+    <Select bind:value={period} label="Obdobje" style="width: 23%;" key={(obdobje) => `${obdobje ? obdobje.name : ''}`}>
+      {#each OBDOBJA as obdobje}
+        <Option on:click={update} value={obdobje}>{obdobje.name}</Option>
+      {/each}
+    </Select>
     <Textfield bind:value={country} label="Mesto ali država" on:keydown={update} style="width: 23%;" helperLine$style="width: 23%;"></Textfield>
   </div>
   <div style="white-space: nowrap;">
