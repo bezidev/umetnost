@@ -44,7 +44,7 @@
 
 	<Accordion>
 		<Panel>
-			<Header>Obdobja</Header>
+			<Header>Obdobja in slogi</Header>
 			<AccordionContent>
 				Tukaj lahko izločite obdobja, ki jih ne pišete na testu. Program vam bo prikazoval samo slike iz obdobij, katerih niste izločili.
 				<p/>
@@ -137,8 +137,18 @@
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
 	<h3>5. 4. 2023</h3>
+	Ob 21.55:
+	<li><b>POMEMBNO: Dodana je bila slika van Gogha, in sicer Pere Tanguy. Ta sodi v postimpresionizem. Očitno sem pri postimpresionizmu manjkal, tako da je nekaj slik manjkalo. To bi moralo biti to.</b></li>
+	<li>Spremenil iz Obdobje v Obdobje ali slog</li>
+	<li>Dodal še eno anotacijo pri Dalijevi sliki Uganka poželenja.</li>
+	<li>Izboljšal UX pri načinu učenja.</li>
+
+	<p/>
+
 	Ob 17.25:
 	<li>Dodan je bil gumb za izbiro testa (glejte razdelek Obdobja)</li>
+
+	<p/>
 
 	Ob 17.10:
 	<li><b>POMEMBNO: Dodana je bila slika Cezanna, in sicer Tihožitje s košaro jabolk. Ta sodi v postimpresionizem.</b></li>

@@ -449,6 +449,18 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
   ),
   new Picture(
+    "Van_Gogh_Pere_Tanguy.webp",
+    "Pere Tanguy",
+    "Portret Pera Tanguya.",
+    "Olje na platnu",
+    ["Vincent", "van", "Gogh"],
+    "1887",
+    "Postimpresionizem",
+    "Francija",
+    [],
+    "https://en.wikipedia.org/wiki/File:Van_Gogh_-_Portrait_of_Pere_Tanguy_1887-8.JPG",
+  ),
+  new Picture(
     "Gauguin_Rumeni_Kristus.webp",
     "Rumeni Kristus",
     "Rumena barva predstavlja njegovo doživljanje sveta. S tem, da pobarva vse z eno barvo izniči telesnost.",
@@ -641,6 +653,7 @@ export const PICTURES: Picture[] = [
     "Španija",
     [
       (new Annotation(95, 4, "Mama", "Na sliki se lahko vidi njegovo mamo.")).toJSON(),
+      (new Annotation(55, 47, "Udornine", 'Znotraj teh udornin piše "moja mama".')).toJSON(),
       (new Annotation(10, 60, "Oče", "Ker je Dali tako navezan na svojo mamo, zanemarja svojega očeta - poznano tudi kot Ojdipov kompleks.")).toJSON(),
     ],
     "https://spanishartinternalconflict.weebly.com/the-enigma-of-my-desire-or-my-mother-my-mother-my-mother.html",

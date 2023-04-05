@@ -4,7 +4,8 @@
   import Textfield from '@smui/textfield';
   import HelperText from '@smui/textfield/helper-text';
   import Select, { Option } from '@smui/select';
-  import { OBDOBJA } from "./obdobja";
+  import Autocomplete from '@smui-extra/autocomplete';
+  import { OBDOBJA, OBDOBJA_NAMES } from "./obdobja";
 	import { PICTURES, PREFIX } from './slike';
 	import { to_number } from 'svelte/internal';
   import { Obdobje } from "./obdobja";
@@ -179,7 +180,7 @@
 </div>
 
 {#if study}
-  <div style="position: absolute; top: 0; right: 0;">
+  <div style="position: absolute; top: 0; right: 0; text-align: right;">
     {#if !showResults}
       <Button on:click={checkAnswers} variant="raised">
         <Icon class="material-icons">check</Icon>
@@ -203,6 +204,8 @@
   </div>
 {/if}
 
+<p/>
+
 {#if study}
   <div style="white-space: nowrap;">
     <div style="width: 90%;" class="inline-block">
@@ -221,11 +224,10 @@
   <div>
     <Textfield bind:value={author} label="Avtor" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
     <Textfield bind:value={year} label="Letnica" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
-    <Select bind:value={period} label="Obdobje" style="width: 23%;" key={(obdobje) => `${obdobje ? obdobje.name : ''}`}>
-      {#each OBDOBJA as obdobje}
-        <Option on:click={update} value={obdobje}>{obdobje.name}</Option>
-      {/each}
-    </Select>
+    <Autocomplete bind:value={period} label="Obdobje ali slog"
+      style="width: 23%;" textfield$style="width: 100%;" options={OBDOBJA}
+      getOptionLabel={(option) => option ? option.name : ''}
+    />
     <Textfield bind:value={country} label="Mesto ali država" on:keydown={update} style="width: 23%;" helperLine$style="width: 23%;"></Textfield>
   </div>
   <div style="white-space: nowrap;">
@@ -259,7 +261,7 @@
   }
 
   img {
-      max-height: 80vh;
+      max-height: 75vh;
       width: 100%;
       object-fit: contain;
   }
