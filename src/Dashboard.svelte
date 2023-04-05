@@ -97,6 +97,14 @@
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
+	<h3>5. 4. 2023</h3>
+	Ob 17.10:
+	<li><b>POMEMBNO: Dodana je bila slika Cezanna, in sicer Tihožitje s košaro jabolk. Ta sodi v postimpresionizem.</b></li>
+	<li>Dodana je bila formula impresionizma: umetnost = narava - človeški faktor</li>
+	<li>Pri dadaizmu sem spremenil manifest v manifeste</li>
+	<li>Dodal sem t.i. dedke modernizma, van Gogh, Cezanne in Gaugin.</li>
+	<li>Dodal sem malo boljši opis za fauvizem.</li>
+
 	<h3>4. 4. 2023</h3>
 	Ob 22.20:
 	<li><b>POMEMBNO: Dodana je bila slika Kandinskega, s tremi jezdeci. Ta sodi v abstraktno umetnost.</b></li>

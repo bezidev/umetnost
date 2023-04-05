@@ -475,6 +475,18 @@ export const PICTURES: Picture[] = [
     "https://en.wikipedia.org/wiki/File:Gauguin_Il_Cristo_giallo.jpg",
   ),
   new Picture(
+    "Cezanne_Tihozitje_s_kosaro_jabolk.webp",
+    "Tihožitje s košaro jabolk",
+    "Ta slika sicer sodi v postimpresionizem, ampak je močno vplivala tako na kubizem, kot tudi na fauvizem",
+    "Olje na platnu",
+    ["Paul", "Cezanne"],
+    "1893",
+    "Postimpresionizem",
+    "Francija",
+    [],
+    "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+  ),
+  new Picture(
     "Kirchner_Avtoportret_z_modelom.webp",
     "Avtoportret z modelom",
     "",

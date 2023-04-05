@@ -32,15 +32,15 @@ export const OBDOBJA: Obdobje[] = [
     "Predmeti nimajo več metaforičnih pomenov, kakor so jih imeli v prejšnjih obdobjih. Zanje je pomembno, da ujamejo trenutek. " +
     "Trudijo se, da so kakor fotoaparat. Želeli so izraziti čisti vizualni vtis. " +
     "Prav tako se spremeni trgovanje, saj Evropski narodi niso marali tega naprednega razmišljanja in so zato pošiljali slike " +
-    "bogatim in naprednim Američanom, ki so cenili to zvrst umetnosti.", "19. stoletje", "Pariz, Francija"),
+    "bogatim in naprednim Američanom, ki so cenili to zvrst umetnosti. Za impresionizem je značilna formula umetnost = narava - človeški faktor", "19. stoletje", "Pariz, Francija"),
   new Obdobje("Postimpresionizem", "Impresionisti so želeli delati čisti vizualni vtis, postimpresionisti pa želijo zadeti čustva in doseči notranji vtis.", "konec 19. stoletja", "Pariz, Francija"),
   new Obdobje("Modernizem", "Je obdobje, pod katerega spadajo tudi spodaj našteta obdobja. Očetje modernizma so van Gogh, Cezanne in Gauguin. V modernizem sodijo obdobja, kot so:" +
-  "<li> ekspresionizem," +
-  "<li> fauvizem," +
+  "<li> ekspresionizem (van Gogh)," +
+  "<li> fauvizem (Gaugin)," +
   "<li> futurizem," +
   "<li> dadaizem," +
   "<li> nadrealizem," +
-  "<li> kubizem," +
+  "<li> kubizem (Cezanne)," +
   "<li> konstruktivizem," +
   "<li> abstraktna umetnost" +
   "<p/> Po 2. sv. vojni pride do vrhunca. V dvajsetem stoletju se življenje premika hitro, zato se tudi umetniške zvrsti zelo hitro menjavajo. <br>" +
@@ -50,9 +50,9 @@ export const OBDOBJA: Obdobje[] = [
   "<li> Avtonomija likovnega dela - ukvarjajo se s slikarstvom samim, ne s tem, da slika predstavlja neko zgodbo" +
   "<li> Dobivali so se v skupinah, kjer so bili pesniki, slikarji, glasbeniki ... na sploh vsi umetniki" +
   "<li> Veliko obdobij ima svoje manifeste. Manifest je slovesna izjava v kateri povedo, kako bi radi v tem obdobju oz. slogu ustvarjali.", "20. stoletje - 1970", "razno"),
-  new Obdobje("Ekspresionizem", "Ekspresionisti so delovali v Nemčiji v času nacizma. Niso podpirali nacizma, so se mu upirali, čemur pa so sledila razna zatiranja in požigi slik s strani nacistov. Z barvami in oblikami izražajo notranje doživljanje, kontrast toplih in hladnih barv. Uprejo se perspektivi, posledično so slike večinoma dvodimenzionalne. Uporabljajo popačene obraze, ki izražajo grozo in strah. Ti obrazi izgledajo kot maske. Skozi barve in oblike izražajo svoja čustva na zelo kritične načine.", "20. stoletje", "Nemčija"),
-  new Obdobje("Fauvizem", "", "20. stoletje", "Francija"),
-  new Obdobje("Futurizem", "Futuriste zanima predvsem gibanje. Ne ozirajo se v preteklost, temveč v prihodnost. Bili so navdušeni nad vojno, kasneje sicer ne. Imeli so tudi manifest in prirejali razne zabave.", "20. stoletje", "Italija"),
+  new Obdobje("Ekspresionizem", "Ekspresionisti so delovali v Nemčiji v času nacizma. Niso podpirali nacizma, so se mu upirali, čemur pa so sledila razna zatiranja in požigi slik s strani nacistov. Z barvami in oblikami izražajo notranje doživljanje, kontrast toplih in hladnih barv. Uprejo se perspektivi, posledično so slike večinoma dvodimenzionalne. Uporabljajo popačene obraze, ki izražajo grozo in strah. Ti obrazi izgledajo kot maske. Skozi barve in oblike izražajo svoja čustva na zelo kritične načine. Dedek ekspresionizma je van Gogh.", "20. stoletje", "Nemčija"),
+  new Obdobje("Fauvizem", "V fauvizmu se uprejo vsemu realnemu (tj. realizem, impresionizem) in začnejo risati z uporabo ploskev. Čim bolj ploščato je, tem bolje je. Upirali so se tudi perspektivi in čustvenim poudarkom. Dedek fauvizma je Gaugin.", "20. stoletje", "Francija"),
+  new Obdobje("Futurizem", "Futuriste zanima predvsem gibanje. Ne ozirajo se v preteklost, temveč v prihodnost. Bili so navdušeni nad vojno, kasneje sicer ne. Imeli so tudi manifeste in prirejali razne zabave.", "20. stoletje", "Italija"),
   new Obdobje("Kubizem", "Paul Cezanne je začetnik kubizma. Uporabljajo tri osnovna telesa, valj, stožec in pa kroglo. Barve, kompozicija, čustva, vsebina in simbolika jih ne zanima.", "20. stoletje", "Francija"),
   new Obdobje("Dadaizem", "Ime dadaizma izvira iz otroške govorice DADA. Želijo si videti svet kot otrok, tj. preko otroških oči, kot da ga vidijo popolnoma na novo. Bili so zelo proti vojni, zato so se tudi umaknili v Švico. Bili so zelo kritični do družbe in meščanskega razreda.", "20. stoletje", "lokal Cabaret Voltaire, Zürich, Švica"),
   new Obdobje("Nadrealizem ali surrealizem", "surreal = nadresnično. Takrat so začeli spoznavati psihoanalizo in po zaslugi Sigmunda Freunda so izvedeli, da je razum sestavljen iz zavednega (10%) in nezavednega dela, posledično je surrealiste izjemno zanimal nezavedni del in sanje.", "20. stoletje", "Francija"),
