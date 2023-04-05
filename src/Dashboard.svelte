@@ -53,9 +53,48 @@
 					localStorage.setItem("exclude", JSON.stringify(selected));
 				}}>
 					<Segment segment={segment}>
-					  <Label>{segment}</Label>
+						<Label>{segment}</Label>
 					</Segment>
-				  </SegmentedButton>
+				</SegmentedButton>
+				<p/>
+				S klikom na spodnja gumba lahko nastavite, da vidite obdobja, katera pišete samo na enemu izmed testov.
+				<b>POMEMBNO! To so samo okvirne smernice, kaj približno pišete v specifičnih testih. Vedno je možno, da kakšen razred ne piše tako, kot je tukaj narejeno, zato še vedno priporočam, da si sami prilagodite izbrana obdobja. Pri prvem testu pišete tudi nekatere slike, ki niso v teh določenih obdobjih (Kandinski: S tremi jezdeci, Abstraktna umetnost). Priporočam, da si ga zapomnete posebej.</b>
+				<p/>
+				<Button on:click={() => {
+					let found = false;
+					selected = [];
+					for (let i = 0; i < OBDOBJA.length; i++) {
+						if (OBDOBJA[i].name === "Realizem") {
+							found = true;
+						}
+						if (!found) continue;
+						selected.push(OBDOBJA[i].name);
+					}
+					localStorage.setItem("exclude", JSON.stringify(selected));
+				}} variant="raised">
+					<Icon class="material-icons">grading</Icon>
+					<Label>1. test</Label>
+				</Button>
+				<Button on:click={() => {
+					selected = [];
+					for (let i = 0; i < OBDOBJA.length; i++) {
+						if (OBDOBJA[i].name === "Realizem") {
+							break;
+						}
+						selected.push(OBDOBJA[i].name);
+					}
+					localStorage.setItem("exclude", JSON.stringify(selected));
+				}} variant="raised">
+					<Icon class="material-icons">grading</Icon>
+					<Label>2. test</Label>
+				</Button>
+				<Button on:click={() => {
+					selected = [];
+					localStorage.setItem("exclude", JSON.stringify(selected));
+				}} variant="raised">
+					<Icon class="material-icons">clear</Icon>
+					<Label>Počisti izbiro</Label>
+				</Button>
 			</AccordionContent>
 		</Panel>
 	</Accordion>
@@ -98,6 +137,9 @@
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
 	<h3>5. 4. 2023</h3>
+	Ob 17.25:
+	<li>Dodan je bil gumb za izbiro testa (glejte razdelek Obdobja)</li>
+
 	Ob 17.10:
 	<li><b>POMEMBNO: Dodana je bila slika Cezanna, in sicer Tihožitje s košaro jabolk. Ta sodi v postimpresionizem.</b></li>
 	<li>Dodana je bila formula impresionizma: umetnost = narava - človeški faktor</li>
