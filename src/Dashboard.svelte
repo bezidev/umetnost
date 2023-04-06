@@ -143,6 +143,10 @@
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
 	<h3>5. 4. 2023</h3>
+	Ob 8.25:
+	<li>Dodanih je bilo še nekaj dodatnih opisov za razna obdobja modernizma.</li>
+
+	<h3>5. 4. 2023</h3>
 	Ob 22.20:
 	<li><b>POMEMBNO: Dodani so bili še eni zapiski za L'avenir.</b></li>
 
