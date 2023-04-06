@@ -143,13 +143,23 @@
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
 	<h3>6. 4. 2023</h3>
+	Ob 22.10:
+	<li><b>POMEMBNO: Dodana je bila slika Kobilce, in sicer Pariška branjevka. Ta sodi v realizem.</b></li>
+	<li><b>POMEMBNO: Dodana je bila slika Gauguina, in sicer Avtoportret. Ta sodi v postimpresionizem.</b></li>
+
+	<p/>
+
 	Ob 17.30:
 	<li><b>POMEMBNO: Slika, ki opisuje Banksyja, je bila spremenjena v Follow your dreams.</b></li>
+
+	<p/>
 
 	Ob 14.45:
 	<li><b>POMEMBNO: Dodan je bil impresionistični kip Mala štirinajstletna plesalka, Degasa.</b></li>
 	<li><b>POMEMBNO: Dodana je bil slika Kompozicija z rdečo, rumeno in modro, avtorja Mondriana.</b></li>
 	<li><b>POMEMBNO: Dodan je bil objekt Bikova glava, avtorja Picassa.</b></li>
+
+	<p/>
 
 	Ob 8.25:
 	<li>Dodanih je bilo še nekaj dodatnih opisov za razna obdobja modernizma.</li>
