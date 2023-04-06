@@ -142,7 +142,7 @@
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
-	<h3>5. 4. 2023</h3>
+	<h3>6. 4. 2023</h3>
 	Ob 8.25:
 	<li>Dodanih je bilo še nekaj dodatnih opisov za razna obdobja modernizma.</li>
 
