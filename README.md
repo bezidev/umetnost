@@ -41,9 +41,11 @@ Trenutna verzija je vedno na voljo na https://umetnost.beziapp.si.
 Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa vodi na to verzijo.
 
 ## Kaj je še treba popraviti?
-- Izboljšati je treba nalagalni čas. Slike so zdaj kar dosti velike in bi se jih dalo zmanjšati.
-- Prestavi na lokalni server
-- Dodaj še več analiz
-- Dopolni van Eyckovo sliko Giovanni Arnolfini
-- Naloži zapiske za La Venier
-- Dodaj proper vire
+- [x] Izboljšati je treba nalagalni čas. Slike so zdaj kar dosti velike in bi se jih dalo zmanjšati.
+- [x] Prestavi na lokalni server
+- [ ] Dodaj še več analiz
+- [ ] Dopolni van Eyckovo sliko Giovanni Arnolfini
+- [x] Naloži zapiske za L'avenir
+- [x] Dodaj proper vire
+- [ ] Migracija na BežiDev organizacijo.
+- [x] Dodaj naključni algoritem brez ponavljanja slik

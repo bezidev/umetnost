@@ -29,6 +29,7 @@ class Picture {
   origin: string;
   source: string;
   annotations: Annotation[];
+  id: number;
 
   constructor(filename: string, title: string, description: string, method: string, author: string[], year: string, period: string, origin: string, annotations: Annotation[], source: string) {
     this.filename = filename;
@@ -397,7 +398,7 @@ export const PICTURES: Picture[] = [
   ),
   new Picture(
     "Renoir_Le_Moulin_de_la_Galete.webp",
-    "Le Moulin de la Galete",
+    "Le Moulin de la Galette",
     "Impresija = vtis.",
     "Olje na platnu",
     ["Pierre", "Auguste", "Renoir"],

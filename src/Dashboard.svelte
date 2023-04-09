@@ -133,73 +133,100 @@
 
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
-	<h2>L'avenir</h2>
-	V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
-	<li><a href="https://cloud.severkar.eu/s/teN43FpyRaiqKbx">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
-	<li><a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a></li>
-	<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
+	<b>POMEMBNO:</b> Če želite imeti pojme za test in druge zapiske, pojdite do dna strani, kjer boste našli razdelek "Dodatni viri in zapiski". <br>
+	<b>POMEMBNO OBVESTILO:</b> To, da je konec testov likovne umetnosti za šolsko leto 2022/2023 še ne pomeni, da ta spletna stran ne bo delovala. Želim si, da bi si čim več generacij prvošolcev pomagalo s to spletno stranjo, saj sem se zanjo res potrudil in je res uporabna. Spletno stran bom obdržal vsaj do konca svojega šolanja na Bežigradu (še kaka 4 leta).
+
+	<p/>
+	<Accordion>
+		<Panel>
+			<Header>L'avenir</Header>
+			<AccordionContent>
+				<h2>L'avenir</h2>
+				V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
+				<li><a href="https://cloud.severkar.eu/s/teN43FpyRaiqKbx">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
+				<li><a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a></li>
+				<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
+			</AccordionContent>
+		</Panel>
+	</Accordion>
 
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
-	<h3>6. 4. 2023</h3>
-	Ob 22.10:
-	<li><b>POMEMBNO: Dodana je bila slika Kobilce, in sicer Pariška branjevka. Ta sodi v realizem.</b></li>
-	<li><b>POMEMBNO: Dodana je bila slika Gauguina, in sicer Avtoportret. Ta sodi v postimpresionizem.</b></li>
+	<h3>9. 4. 2023</h3>
+	Ob 15.00:
+	<li><b>POMEMBNO: Ime slike Le Moulin de la Galete je bilo spremenjeno v Le Moulin de la Galette (dva T-ja).</b></li>
+	<li>Sedaj pri načinu učenja izloči vsa nepotrebna (izločena) obdobja.</li>
+	<li>Preklopil sem na algoritem, ki poskrbi, da se vse slike servirajo. To pomeni, da boste šli čez vse slike, preden začnete z novim krogom. V vsakemu krogu se slika pojavi samo enkrat. Aplikacija vas sedaj obvesti, kdaj zaključite krog.</li>
+	<li>Dodani so bili zapiski za oba izmed testov.</li>
 
 	<p/>
 
-	Ob 17.30:
-	<li><b>POMEMBNO: Slika, ki opisuje Banksyja, je bila spremenjena v Follow your dreams.</b></li>
+	<Accordion>
+		<Panel>
+			<Header>Starejše spremembe</Header>
+			<AccordionContent>
+				<h3>6. 4. 2023</h3>
+				Ob 22.10:
+				<li><b>POMEMBNO: Dodana je bila slika Kobilce, in sicer Pariška branjevka. Ta sodi v realizem.</b></li>
+				<li><b>POMEMBNO: Dodana je bila slika Gauguina, in sicer Avtoportret. Ta sodi v postimpresionizem.</b></li>
 
-	<p/>
+				<p/>
 
-	Ob 14.45:
-	<li><b>POMEMBNO: Dodan je bil impresionistični kip Mala štirinajstletna plesalka, Degasa.</b></li>
-	<li><b>POMEMBNO: Dodana je bil slika Kompozicija z rdečo, rumeno in modro, avtorja Mondriana.</b></li>
-	<li><b>POMEMBNO: Dodan je bil objekt Bikova glava, avtorja Picassa.</b></li>
+				Ob 17.30:
+				<li><b>POMEMBNO: Slika, ki opisuje Banksyja, je bila spremenjena v Follow your dreams.</b></li>
 
-	<p/>
+				<p/>
 
-	Ob 8.25:
-	<li>Dodanih je bilo še nekaj dodatnih opisov za razna obdobja modernizma.</li>
+				Ob 14.45:
+				<li><b>POMEMBNO: Dodan je bil impresionistični kip Mala štirinajstletna plesalka, Degasa.</b></li>
+				<li><b>POMEMBNO: Dodana je bil slika Kompozicija z rdečo, rumeno in modro, avtorja Mondriana.</b></li>
+				<li><b>POMEMBNO: Dodan je bil objekt Bikova glava, avtorja Picassa.</b></li>
 
-	<h3>5. 4. 2023</h3>
-	Ob 22.20:
-	<li><b>POMEMBNO: Dodani so bili še eni zapiski za L'avenir.</b></li>
+				<p/>
 
-	<p/>
+				Ob 8.25:
+				<li>Dodanih je bilo še nekaj dodatnih opisov za razna obdobja modernizma.</li>
 
-	Ob 21.55:
-	<li><b>POMEMBNO: Dodana je bila slika van Gogha, in sicer Pere Tanguy. Ta sodi v postimpresionizem. Očitno sem pri postimpresionizmu manjkal, tako da je nekaj slik manjkalo. To bi moralo biti to.</b></li>
-	<li>Spremenil iz Obdobje v Obdobje ali slog</li>
-	<li>Dodal še eno anotacijo pri Dalijevi sliki Uganka poželenja.</li>
-	<li>Izboljšal UX pri načinu učenja.</li>
+				<h3>5. 4. 2023</h3>
+				Ob 22.20:
+				<li><b>POMEMBNO: Dodani so bili še eni zapiski za L'avenir.</b></li>
 
-	<p/>
+				<p/>
 
-	Ob 17.25:
-	<li>Dodan je bil gumb za izbiro testa (glejte razdelek Obdobja)</li>
+				Ob 21.55:
+				<li><b>POMEMBNO: Dodana je bila slika van Gogha, in sicer Pere Tanguy. Ta sodi v postimpresionizem. Očitno sem pri postimpresionizmu manjkal, tako da je nekaj slik manjkalo. To bi moralo biti to.</b></li>
+				<li>Spremenil iz Obdobje v Obdobje ali slog</li>
+				<li>Dodal še eno anotacijo pri Dalijevi sliki Uganka poželenja.</li>
+				<li>Izboljšal UX pri načinu učenja.</li>
 
-	<p/>
+				<p/>
 
-	Ob 17.10:
-	<li><b>POMEMBNO: Dodana je bila slika Cezanna, in sicer Tihožitje s košaro jabolk. Ta sodi v postimpresionizem.</b></li>
-	<li>Dodana je bila formula impresionizma: umetnost = narava - človeški faktor</li>
-	<li>Pri dadaizmu sem spremenil manifest v manifeste</li>
-	<li>Dodal sem t.i. dedke modernizma, van Gogh, Cezanne in Gaugin.</li>
-	<li>Dodal sem malo boljši opis za fauvizem.</li>
+				Ob 17.25:
+				<li>Dodan je bil gumb za izbiro testa (glejte razdelek Obdobja)</li>
 
-	<h3>4. 4. 2023</h3>
-	Ob 22.20:
-	<li><b>POMEMBNO: Dodana je bila slika Kandinskega, s tremi jezdeci. Ta sodi v abstraktno umetnost.</b></li>
+				<p/>
 
-	<p/>
-	
-	Ob 22.05:
-	<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
-	<li>Vprašal sem prof. Tanjo Mastnak in dodatno potrdil dejstva: surrealizem se res začne v Franciji, abstraktna umetnost pa je vsepovsod po svetu in nima svojega začetka v kaki specifični lokaciji.</li>
-	<li>Dodal sem še opis vrat pri sliki Pred lovom, slikarja Šubica.</li>
+				Ob 17.10:
+				<li><b>POMEMBNO: Dodana je bila slika Cezanna, in sicer Tihožitje s košaro jabolk. Ta sodi v postimpresionizem.</b></li>
+				<li>Dodana je bila formula impresionizma: umetnost = narava - človeški faktor</li>
+				<li>Pri dadaizmu sem spremenil manifest v manifeste</li>
+				<li>Dodal sem t.i. dedke modernizma, van Gogh, Cezanne in Gaugin.</li>
+				<li>Dodal sem malo boljši opis za fauvizem.</li>
+
+				<h3>4. 4. 2023</h3>
+				Ob 22.20:
+				<li><b>POMEMBNO: Dodana je bila slika Kandinskega, s tremi jezdeci. Ta sodi v abstraktno umetnost.</b></li>
+
+				<p/>
+				
+				Ob 22.05:
+				<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
+				<li>Vprašal sem prof. Tanjo Mastnak in dodatno potrdil dejstva: surrealizem se res začne v Franciji, abstraktna umetnost pa je vsepovsod po svetu in nima svojega začetka v kaki specifični lokaciji.</li>
+				<li>Dodal sem še opis vrat pri sliki Pred lovom, slikarja Šubica.</li>
+			</AccordionContent>
+		</Panel>
+	</Accordion>
 
 	{#each OBDOBJA as obdobje}
 		{#if !selected.includes(obdobje.name)}
@@ -239,6 +266,7 @@
 
 	<h2>Dodatni viri in zapiski</h2>
 	Učenje umetnostne zgodovine na Gimnaziji Bežigrad je težko. Čez leta so dijaki ustvarili mnogo zapiskov, tukaj pa zbiramo najboljše.
+	<li><a href="https://cloud.severkar.eu/s/XCGSDL7WJjsZ9Fe">Zapiski 2022A (1.A v šolskem letu 2022/2023). Na tej povezavi se nahajajo tudi vsi pojmi.</a></li>
 
 	<h2>Viri</h2>
 	<li>dr. Tanja Mastnak - profesorica umetnosti na Gimnaziji Bežigrad</li>
@@ -248,8 +276,8 @@
 	<li>Pri iskanju slik sem se vedno potrudil poiskati čim večje. Pri sodobni umetnosti je šlo na tesno, saj je večina avtorjev še živih oz. ni minilo 70 let od njihove smrti. To pomeni, da so te slike še vedno pokrite pod zakoni o avtorskih pravicah, posledično jih Wikipedija ne sme naložiti v večjih resolucijah. Menim, da je uporaba trenutnih slik pokrita pod <a href="https://sl.wikipedia.org/wiki/Po%C5%A1tena_uporaba">pošteno rabo</a> (glej <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>) z namenom obveščanja javnosti in pouka. Od te spletne strani ne služim denarja in nikoli ne bom, saj je ta spletna stran namenjena izključno uporabi v izobraževalne namene in ne oglaševanju kakršnekoli vrste. Vse avtorske pravice posamičnih slik pripadajo pripadajočim avtorjem.</li>
 
 	<h2>O programu</h2>
-	Spletna stran je bila spisana kot projektna naloga pri prof. Šuštaršiču za informatiko.
-	Spletna stran je <a href="https://github.com/mytja/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
+	Spletna stran je bila spisana kot projektna naloga pri prof. Šuštaršiču za informatiko in kot interaktivni zapiski za 2. test pri LUM.
+	Spletna stran je <a href="https://github.com/bezidev/umetnost">popolnoma odprtokodna</a>, licencirana pod AGPLv3 licenco.
 	Kdorkoli lahko ureja te zapiske in jih pomaga izboljševati.
 	Če želite pomagati pri projektu, pa vendar ne znate ravno programirati, da bi dodali še kaj,
 	mi lahko kadarkoli pišete na šolski e-naslov <a href="mailto:mitja.severkar@gimb.org">mitja.severkar@gimb.org</a>.

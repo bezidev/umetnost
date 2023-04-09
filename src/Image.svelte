@@ -4,12 +4,12 @@
   import Textfield from '@smui/textfield';
   import HelperText from '@smui/textfield/helper-text';
   import Select, { Option } from '@smui/select';
-  import Autocomplete from '@smui-extra/autocomplete';
   import { OBDOBJA, OBDOBJA_NAMES } from "./obdobja";
 	import { PICTURES, PREFIX } from './slike';
 	import { to_number } from 'svelte/internal';
   import { Obdobje } from "./obdobja";
 	import { navigate } from 'svelte-navigator';
+  import Snackbar from '@smui/snackbar';
 
   export let id: number;
   let data = {picture: PICTURES[to_number(id)]};
@@ -20,7 +20,7 @@
   let period: Obdobje;
   let country = "";
   let study = localStorage.getItem("mode") === "study";
-  let textStandard = '';
+  let snackbar: Snackbar;
 
   let titleCorrect = false;
   let authorCorrect = false;
@@ -33,6 +33,21 @@
   let secs = 0;
 
   let selected = JSON.parse(localStorage.getItem("exclude") === null ? "[]" : localStorage.getItem("exclude"));
+  var pictures = getPictures();
+
+  function getPictures() {
+    let newPictures = [];
+    for (let i = 0; i < PICTURES.length; i++) {
+      if (selected.includes(PICTURES[i].period)) {
+        console.log("izognil sem se slike ", PICTURES[i].period, PICTURES[i].title);
+        continue;
+      };
+      let newPicture = PICTURES[i];
+      newPicture.id = i;
+      newPictures.push(newPicture);
+    }
+    return newPictures;
+  }
 
   function load() {
     data = {picture: PICTURES[to_number(id)]};
@@ -57,27 +72,20 @@
 	} 
 
 	function random() {
-    let pictures = PICTURES;
-    let t = 0;
-    for (let i = 1; i < pictures.length; i++) {
-      if (pictures[i].filename === data.picture.filename) {
-        t = i;
-        break;
-      }
+    for (let i = 0; i < pictures.length; i++) {
+      if (!(pictures[i].title == data.picture.title && pictures[i].author == data.picture.author)) continue;
+      pictures.splice(i, 1);
+      break;
     }
-    let depth = 0;
-    while (true) {
-      depth++;
-      if (depth > 100) return;
-      let rand = getRandomInteger(0, pictures.length);
-      if (rand == t) continue;
-      let picture = PICTURES[rand];
-      if (selected.includes(picture.period)) continue;
-      navigate(`/slike/${rand}`);
-      id = rand;
-      load();
-      return;
+    console.log("length", pictures.length);
+    if (pictures.length == 0) {
+      snackbar.open();
+      pictures = getPictures();
     }
+    let rand = getRandomInteger(0, pictures.length);
+    navigate(`/slike/${pictures[rand].id}`);
+    id = pictures[rand].id;
+    load();
 	}
 
   function checkAuthor() {
@@ -173,6 +181,10 @@
   setInterval(getTime, 1000);
 </script>
 
+<Snackbar bind:this={snackbar}>
+  <Label>Čestitke! Ravnokar ste predelali vse slike. Začenjam znova.</Label>
+</Snackbar>
+
 <div style="position: absolute; top: 0; left: 0;">
   <Button on:click={() => navigate("/")} variant="raised">
     <Icon class="material-icons">home</Icon>
@@ -227,7 +239,9 @@
     <Textfield bind:value={year} label="Letnica" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
     <Select bind:value={period} label="Obdobje" style="width: 23%;" key={(obdobje) => `${obdobje ? obdobje.name : ''}`}>
       {#each OBDOBJA as obdobje}
-        <Option on:click={update} value={obdobje}>{obdobje.name}</Option>
+        {#if !selected.includes(obdobje.name)}
+          <Option on:click={update} value={obdobje}>{obdobje.name}</Option>
+        {/if}
       {/each}
     </Select>
     <Textfield bind:value={country} label="Mesto ali država" on:keydown={update} style="width: 23%;" helperLine$style="width: 23%;"></Textfield>
