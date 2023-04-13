@@ -113,6 +113,10 @@ export const PICTURES: Picture[] = [
     [
       (new Annotation(50, 90, "Pes", "Pes simbolizira večno zvestobo.")).toJSON(),
       (new Annotation(75, 50, "Rdeča postelja", "Rdeča postelja simbolizira ljubezen.")).toJSON(),
+      (new Annotation(50, 25, "Ogledalo", "Ogledalo ima odsev.")).toJSON(),
+      (new Annotation(60, 35, "Nosečnost", "Vidi se, da je žena noseča.")).toJSON(),
+      (new Annotation(60, 50, "Zelena barva", "Ženska ima tipično oblečene ženske, milejše barve.")).toJSON(),
+      (new Annotation(29, 52, "Sadje", "Na sliki lahko vidimo sadje (mandarine), katere je kot trgovec pripeljal iz daljnih krajev.")).toJSON(),
       (new Annotation(26, 25, "Okno", "Giovanni Arnolfini je bil trgovec. Okno torej simbolizira, kako je ves čas zapuščal dom, da je lahko trgoval.")).toJSON(),
     ],
     "https://commons.wikimedia.org/wiki/File:The_Arnolfini_portrait_(1434).jpg",
