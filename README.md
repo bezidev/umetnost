@@ -4,13 +4,13 @@ Umetnostna zgodovina na Bežiju je težka. Dajmo jo skupaj olajšati.
 ## Dokumentacija
 
 ### Način za učenje
-![slika](https://user-images.githubusercontent.com/52399966/228747157-b0723ec1-9c4c-4592-865b-e36b1e5b9147.png)
+![image](https://user-images.githubusercontent.com/52399966/232222982-7c31171d-1c51-4883-8dbe-cc26ed4d452f.png)
 
 Pri načinu za učenje si lahko izberete obdobja, ki jih ne želite (obdobja, ki jih ne pišete na testu). To pomeni, da bo program izločil vse slike, ki sodijo v ta obdobja.
 
 Ob kliku na gumb začni učenje (ki se pojavi takoj, ko aktivirate način učenja), se naključno izbere slika (samo iz obdobij, ki niso izbrana), se začne štoparica in prikaže spletna stran, kjer lahko vpišete ime slike, letnico, ime avtorja, obdobje in mesto ali državo.
 
-![slika](https://user-images.githubusercontent.com/52399966/228747679-34733ac6-3a33-41d6-bb5c-b3d4bed48e6b.png)
+![image](https://user-images.githubusercontent.com/52399966/232223046-1ee2a6e8-9ca0-4ede-9814-97ac147eafa4.png)
 
 Program bo ob kliku na gumb `Prikaži rezultate` preveril vaše odgovore.
 - če se vsaj en del ujema s tem, kar ima program zapisano, bo dal kljukico
@@ -49,3 +49,7 @@ Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa v
 - [x] Dodaj proper vire
 - [ ] Migracija na BežiDev organizacijo.
 - [x] Dodaj naključni algoritem brez ponavljanja slik
+
+## Razne slikice
+![image](https://user-images.githubusercontent.com/52399966/232222942-f7cb07bc-1ae4-4ed1-a061-aa35b13b406e.png)
+
