@@ -11,6 +11,7 @@
 	import SegmentedButton, { Segment } from '@smui/segmented-button';
 
 	let study = localStorage.getItem("mode") === "study";
+	let additional = localStorage.getItem("additional") === "true";
 
 	function getRandomInteger(min: number, max: number) {
 		return Math.floor(Math.random() * (max - min)) + min;
@@ -108,6 +109,15 @@
 		<span slot="label">Način učenja</span>
 	</FormField>
 	{#if study}
+		<br>
+		<FormField>
+			<Switch bind:checked={additional} on:click={() => {
+				setTimeout(() => localStorage.setItem("additional", additional.toString()), 50);
+			}}/>
+			<span slot="label">Prikaži tudi letnico in kraj/državo.</span>
+		</FormField>
+		<br>
+		<small>Ti podatki niso potrebni za test, zato je to avtomatično izključeno. Če želite prikazati letnico in kraj/državo, lahko vključite to opcijo, ampak se morate zavedati, da ti podatki niso bili preverjeni in so večinoma naključni (pri kraju/državi sem podnekod vzel državo rojstva avtorja, nekje državo nastnaka slike, nekje pa muzej v katerem je trenutno ta slika shranjena).</small>
 		<p/>
 		<Button on:click={random} variant="raised">
 			<Icon class="material-icons">school</Icon>

@@ -43,8 +43,8 @@ Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa v
 ## Kaj je še treba popraviti?
 - [x] Izboljšati je treba nalagalni čas. Slike so zdaj kar dosti velike in bi se jih dalo zmanjšati.
 - [x] Prestavi na lokalni server
-- [ ] Dodaj še več analiz
-- [ ] Dopolni van Eyckovo sliko Giovanni Arnolfini
+- [x] Dodaj še več analiz
+- [x] Dopolni van Eyckovo sliko Giovanni Arnolfini
 - [x] Naloži zapiske za L'avenir
 - [x] Dodaj proper vire
 - [ ] Migracija na BežiDev organizacijo.

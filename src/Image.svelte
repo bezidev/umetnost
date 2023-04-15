@@ -20,6 +20,7 @@
   let period: Obdobje;
   let country = "";
   let study = localStorage.getItem("mode") === "study";
+  let additional = localStorage.getItem("additional") === "true";
   let snackbar: Snackbar;
 
   let titleCorrect = false;
@@ -200,7 +201,7 @@
         <Label>Pokaži rezultate</Label>
       </Button>
     {:else}
-      {#if !(titleCorrect && authorCorrect && yearCorrect && periodCorrect && countryCorrect)}
+      {#if !(titleCorrect && authorCorrect && periodCorrect && ((!additional) || (additional && yearCorrect && countryCorrect)))}
         <Button on:click={solve} variant="raised">
           <Icon class="material-icons">check</Icon>
           <Label>Pokaži rešitve</Label>
@@ -221,7 +222,7 @@
 
 {#if study}
   <div style="white-space: nowrap;">
-    <div style="width: 90%;" class="inline-block">
+    <div style="width: 94%;" class="inline-block">
       <Textfield
         style="width: 100%;"
         helperLine$style="width: 100%;"
@@ -235,39 +236,45 @@
     {#if showResults}<div style="width: 5%;" class="inline-block">{#if titleCorrect}✅{:else}❌{/if}</div>{/if}
   </div>
   <div>
-    <Textfield bind:value={author} label="Avtor" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
-    <Textfield bind:value={year} label="Letnica" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
-    <Select bind:value={period} label="Obdobje" style="width: 23%;" key={(obdobje) => `${obdobje ? obdobje.name : ''}`}>
+    <Textfield bind:value={author} label="Avtor" style="width: {additional ? 23 : 47}%;" on:keydown={update} helperLine$style="width: {additional ? 23 : 48}%;"></Textfield>
+    {#if additional}
+      <Textfield bind:value={year} label="Letnica" style="width: 23%;" on:keydown={update} helperLine$style="width: 23%;"></Textfield>
+    {/if}
+    <Select bind:value={period} label="Obdobje" style="width: {additional ? 23 : 47}%;" key={(obdobje) => `${obdobje ? obdobje.name : ''}`}>
       {#each OBDOBJA as obdobje}
         {#if !selected.includes(obdobje.name)}
           <Option on:click={update} value={obdobje}>{obdobje.name}</Option>
         {/if}
       {/each}
     </Select>
-    <Textfield bind:value={country} label="Mesto ali država" on:keydown={update} style="width: 23%;" helperLine$style="width: 23%;"></Textfield>
+    {#if additional}
+      <Textfield bind:value={country} label="Mesto ali država" on:keydown={update} style="width: 23%;" helperLine$style="width: 23%;"></Textfield>
+    {/if}
   </div>
   <div style="white-space: nowrap;">
-    {#if showResults}<div class="w25 inline-block"><div class="hcenter">{#if authorCorrect}✅{:else}❌{/if}</div></div>{/if}
-    {#if showResults}<div class="w25 inline-block"><div class="hcenter">{#if yearCorrect}✅{:else}❌{/if}</div></div>{/if}
-    {#if showResults}<div class="w25 inline-block"><div class="hcenter">{#if periodCorrect}✅{:else}❌{/if}</div></div>{/if}
-    {#if showResults}<div class="w25 inline-block"><div class="hcenter">{#if countryCorrect}✅{:else}❌{/if}</div></div>{/if}
+    {#if showResults}<div class="w{additional ? 25 : 50} inline-block"><div class="hcenter">{#if authorCorrect}✅{:else}❌{/if}</div></div>{/if}
+    {#if showResults && additional}<div class="w25 inline-block"><div class="hcenter">{#if yearCorrect}✅{:else}❌{/if}</div></div>{/if}
+    {#if showResults}<div class="w{additional ? 25 : 50} inline-block"><div class="hcenter">{#if periodCorrect}✅{:else}❌{/if}</div></div>{/if}
+    {#if showResults && additional}<div class="w25 inline-block"><div class="hcenter">{#if countryCorrect}✅{:else}❌{/if}</div></div>{/if}
   </div>
 {:else}
   <h1>{data.picture.title}</h1>
   <span class="center-align">{@html data.picture.description}</span>
   <span class="center-align">{data.picture.author.join(" ")}, {data.picture.year}, {data.picture.period}, {data.picture.method}, {data.picture.origin}, <a href={data.picture.source}>Vir slike</a></span>
 {/if}
-<div class="image">
-  {#each data.picture.annotations as annotation}
-    <Wrapper rich style="top: {annotation.y}%; left: {annotation.x}%; width: 100%; position: absolute;">
-      <div class="annotation"></div>
-      <Tooltip>
-        <Title>{annotation.title}</Title>
-        <Content>{annotation.description}</Content>
-      </Tooltip>
-    </Wrapper>
-  {/each}
-  <img src={`${PREFIX}${data.picture.filename}`} alt={data.picture.description}>
+<div class="parent">
+  <div class="image inline-block">
+    {#each data.picture.annotations as annotation}
+      <Wrapper rich style="top: {annotation.y}%; left: {annotation.x}%; width: 100%; position: absolute;">
+        <div class="annotation"></div>
+        <Tooltip>
+          <Title>{annotation.title}</Title>
+          <Content>{annotation.description}</Content>
+        </Tooltip>
+      </Wrapper>
+    {/each}
+    <img src={`${PREFIX}${data.picture.filename}`} alt={data.picture.description}>
+  </div>
 </div>
 
 <style>
@@ -281,4 +288,10 @@
       width: 100%;
       object-fit: contain;
   }
+
+  .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 </style>

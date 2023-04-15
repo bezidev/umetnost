@@ -575,7 +575,7 @@ export const PICTURES: Picture[] = [
     [
       (new Annotation(45, 50, "Nos", "Nos je predstavljal tridimenzionalno obliko, zato ga je sploščil z zeleno črto.")).toJSON(),
     ],
-    "https://eucbeniki.sio.si/lum9/2383/index3.html",
+    "https://artsandculture.google.com/asset/portrait-of-madame-matisse-the-green-line-henri-matisse/pQER-gMjYy2etA",
   ),
   new Picture(
     "Matisse_Ples.webp",
@@ -675,7 +675,7 @@ export const PICTURES: Picture[] = [
     "Dadaizem",
     "Švica",
     [
-      (new Annotation(78, 0, "Splošni opis", "Marcel Duchamp je šel v trgovino, kjer je kupil pisoar, katerega je obrnil na glavo in razstavil. " + 
+      (new Annotation(100, 0, "Splošni opis", "Marcel Duchamp je šel v trgovino, kjer je kupil pisoar, katerega je obrnil na glavo in razstavil. " + 
         "To je bilo zelo provokativno, saj je vzpodpujalo mišljenje, da ni vse, kar je razstavljeno v galeriji umetnost. S tem mišljenjem je razburjal javnost, saj se je posmehoval prejšnjim obdobjem. Prav tako s to umetnino sporoča, da je umetnost intelektualno delo in ne ročno delo. Slog umetnosti je ready-made oz objet trouve.")).toJSON(),
     ],
     "https://commons.wikimedia.org/wiki/File:%27Fountain%27_by_Marcel_Duchamp_(replica).JPG",
@@ -956,7 +956,7 @@ export const PICTURES: Picture[] = [
     "Performans",
     "Rusija",
     [],
-    "https://commons.wikimedia.org/wiki/File:IRWIN_Black_Square_on_Red_Square_1992.jpg",
+    "https://www.kontakt-collection.org/internal/media/dispatcher/8901/preview",
   ),
   new Picture(
     "IRWIN_Kapital.webp",

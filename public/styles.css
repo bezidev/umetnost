@@ -150,6 +150,10 @@ button:focus:not(:focus-visible) {
 	width: 23%;
 }
 
+.w50 {
+	width: 47%;
+}
+
 .w5 {
 	width: 5%;
 }
