@@ -4,6 +4,7 @@
 	import Dashboard from "./Dashboard.svelte";
     import Image from "./Image.svelte";
 	import Print from "./Print.svelte";
+	import Test from "./Test.svelte";
 </script>
 
 <Router>
@@ -15,6 +16,9 @@
 			<Image id={to_number(params.id)} />
 		</Route>
 	</main>
+	<Route path="/test/:id" let:params>
+		<Test id={to_number(params.id)} />
+	</Route>
 	<Route path="/print">
 		<Print />
 	</Route>

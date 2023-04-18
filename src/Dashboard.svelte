@@ -160,6 +160,15 @@
 		</Panel>
 	</Accordion>
 
+	<h2>Testi</h2>
+	BežiApp Umetnost lahko sedaj tudi generira teste likovne umetnosti, ki so vam lahko v pomoč pri vaji. Testi so narejeni tako, da čim bolj oponašajo realne teste. Slike so izbrane naključno, a so še vedno v skladju s tem, kar pišete na testu.
+
+	<p/>
+	<Button on:click={() => navigate("/test/1")} variant="raised">
+		<Icon class="material-icons">print</Icon>
+		<Label>1. test</Label>
+	</Button>
+
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
