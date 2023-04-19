@@ -168,6 +168,10 @@
 		<Icon class="material-icons">print</Icon>
 		<Label>1. test</Label>
 	</Button>
+	<Button on:click={() => navigate("/test/2")} variant="raised">
+		<Icon class="material-icons">print</Icon>
+		<Label>2. test</Label>
+	</Button>
 
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>

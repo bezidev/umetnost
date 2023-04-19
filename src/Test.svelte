@@ -8,7 +8,7 @@
     let waiting = 0;
     const notifyLoaded = () => {
         console.log('loaded!');
-        window.print();
+        //window.print();
     }
     const onload = el => {
         waiting++
@@ -72,6 +72,13 @@
                     selectPictures: 0,
                     points: 6,
                 },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Atribut<br>- Provenienca<br>- Jedkanica",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
             ],
             4: [
                 {
@@ -80,6 +87,20 @@
                     pictures: [],
                     selectPictures: 0,
                     points: 6,
+                },
+                {
+                    id: "Zgodnjerenesančno slikarstvo",
+                    name: "Opiši zgodnjerenesančno slikarstvo ob primerih.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 5,
+                },
+                {
+                    id: "Primerjava",
+                    name: "Primerjaj manierizem in barok v kiparstvu ob primerih.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 5,
                 },
             ],
             5: [
@@ -91,8 +112,70 @@
                     points: 6,
                 },
             ],
+        },
+        {
+            1: [
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Manifest<br>- Instalacija<br>- Bruitistična poezija/glasba.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+            ],
+            2: [
+                {
+                    id: "Obdobje",
+                    name: "Navedi značilnosti, avtorje in glavna dela impresionistične umetnosti.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+            ],
+            3: [
+                {
+                    id: "Smeri sodobne umetnosti",
+                    name: "Katera smer sodobne umetnosti povezuje likovno umetnost in film?",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 2,
+                },
+            ],
+            4: [
+                {
+                    id: "Slike",
+                    name: "Ob slikah navedi ime avtorja, naslov dela in tehniko/slog/obdobje.",
+                    pictures: removeNulls(PICTURES.map((e) => !skupne1.includes(e.filename) ? e : null)),
+                    selectPictures: 3,
+                    points: 6,
+                },
+            ],
+            5: [
+                {
+                    id: "Esej",
+                    name: "Iz razstave sodobne umetnosti, katero smo obiskali v okviru šole, primerjaj dve umetnini z enim izmed obdobij modernizma. Smiselno utemelji vse primerjave.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 10,
+                },
+            ],
         }
-    ]
+    ];
+
+    let questions = [];
+    let total = 0;
+
+    function select() {
+        let keys = Object.keys(TESTS[id-1]);
+        for (let i = 0; i < keys.length; i++) {
+            let q1 = TESTS[id-1][keys[i]];
+            let k = getRandomInt(q1.length);
+            questions.push(q1[k]);
+            total += q1[k].points;
+        }
+    }
+
+    select();
 </script>
 
 <style>
@@ -114,13 +197,13 @@
     Vprašanja v testu se lahko razlikujejo od teh, podanih v tej aplikaciji. To je generirano samo kot primer vprašanj, ki se teoretično
     lahko pojavijo na testu. Odgovore na vprašanja pišete na prazen list (odgovore, ki se navezujejo na slike, lahko pišete tudi na test), podobno kot na pravem testu.
     <p/>
-    {#each Object.keys(TESTS[id-1]) as testKey}
+    {#each questions as question, i}
         <div class="obdobje">
-            <h2>{testKey}. {TESTS[id-1][testKey][0].id} ({TESTS[id-1][testKey][0].points})</h2>
-            {@html TESTS[id-1][testKey][0].name}
+            <h2>{i+1}. {question.id} ({question.points})</h2>
+            {@html question.name}
             <p/>
-            {#if TESTS[id-1][testKey][0].selectPictures !== 0}
-                {#each randomPictures(TESTS[id-1][testKey][0].selectPictures, TESTS[id-1][testKey][0].pictures) as picture}
+            {#if question.selectPictures !== 0}
+                {#each randomPictures(question.selectPictures, question.pictures) as picture}
                     <img use:onload src={`${PREFIX}${picture.filename}`} alt={picture.description} style="max-width: 300px; max-height: 300px;">
                 {/each}
                 <div style="height: 50px;"/>
@@ -129,7 +212,7 @@
         </div>
     {/each}
 
-    <h3>Skupaj 30 točk. Doseženih ________ točk.</h3>
+    <h3>Skupaj {total} točk. Doseženih ________ točk.</h3>
 
 	
 </section>
