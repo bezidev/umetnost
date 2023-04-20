@@ -43,6 +43,7 @@
 
     const IKONOGRAFSKA1 = ["Veronese_Ugrabitev_Evrope.webp", "Kavcic_Salomonova_sodba.webp", "Van_Eyck_Giovanni_Arnolfini_s_soprogo.webp", "David_Prisega_Horacijev.webp", "Velazques_Predaja_Brede.webp", "Rafael_Madona_v_zelenju.webp"];
     let skupne1 = removeNulls(PICTURES.map((e) => TEST1_PERIODS.includes(e.period) && !IKONOGRAFSKA1.includes(e.filename) ? e : null));
+    let skupne2 = removeNulls(PICTURES.map((e) => !TEST1_PERIODS.includes(e.period) && !IKONOGRAFSKA1.includes(e.filename) ? e : null));
 
     const TESTS = [
         {
@@ -75,6 +76,20 @@
                 {
                     id: "Pojmi",
                     name: "Razloži pojme:<br>- Atribut<br>- Provenienca<br>- Jedkanica",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Mozaik<br>- Pigment<br>- Vitraž<br>- Obla plastika<br>- Bakrorez<br>- Provenienca",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Provenienca<br>- Karikatura<br>- Akt<br>- Obla plastika<br>- Linearna perspektiva<br>- Freska",
                     pictures: [],
                     selectPictures: 0,
                     points: 6,
@@ -122,11 +137,67 @@
                     selectPictures: 0,
                     points: 6,
                 },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Akademsko slikarstvo<br>- Salon zavrnjenih<br>- Dada<br>- Cabaret Voltaire<br>- Manifest<br>- Stroji za hrup.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Suprematizem<br>- Salon zavrnjenih<br>- Nefiguralna umetnost<br>- Konceptualna umetnost<br>- Invencija<br>- Avantgardna umetnost.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Street Art<br>- Objekt<br>- Abstraktni ekspresionizem<br>- Performans<br>- Invencija<br>- Abstrahiranje.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Sprevržena umetnost<br>- Surrealizem<br>- Bruitistična poezija/glasba.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Pojmi",
+                    name: "Razloži pojme:<br>- Objekt<br>- Ready made<br>- Psihični avtomatizem.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
             ],
             2: [
                 {
                     id: "Obdobje",
                     name: "Navedi značilnosti, avtorje in glavna dela impresionistične umetnosti.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Obdobje",
+                    name: "Navedi značilnosti, avtorje in glavna dela postimpresionistične umetnosti.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Obdobje",
+                    name: "Navedi značilnosti, avtorje in glavna dela realizma.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Obdobje",
+                    name: "Predstavi vse kar veš o realizmu in primerjaj slovenske ter francoske avtorje v realizmu. Predstavi vse ",
                     pictures: [],
                     selectPictures: 0,
                     points: 6,
@@ -140,12 +211,26 @@
                     selectPictures: 0,
                     points: 2,
                 },
+                {
+                    id: "Primerjava",
+                    name: "Ob primerih primerjaj dadaizem in futurizem. Napiši tudi avtorje in naslove slik.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
+                {
+                    id: "Primerjava",
+                    name: "Ob primerih primerjaj kubizem in futurizem. Napiši tudi avtorje in naslove slik.",
+                    pictures: [],
+                    selectPictures: 0,
+                    points: 6,
+                },
             ],
             4: [
                 {
                     id: "Slike",
                     name: "Ob slikah navedi ime avtorja, naslov dela in tehniko/slog/obdobje.",
-                    pictures: removeNulls(PICTURES.map((e) => !skupne1.includes(e.filename) ? e : null)),
+                    pictures: skupne2,
                     selectPictures: 3,
                     points: 6,
                 },
@@ -195,7 +280,8 @@
 	</h1>
     Test je bil naključno generiran v aplikaciji <a href="https://umetnost.beziapp.si">BežiApp Umetnost</a>.
     Vprašanja v testu se lahko razlikujejo od teh, podanih v tej aplikaciji. To je generirano samo kot primer vprašanj, ki se teoretično
-    lahko pojavijo na testu. Odgovore na vprašanja pišete na prazen list (odgovore, ki se navezujejo na slike, lahko pišete tudi na test), podobno kot na pravem testu.
+    lahko pojavijo na testu. Odgovore na vprašanja pišete na prazen list (odgovore, ki se navezujejo na slike, lahko pišete tudi na test), podobno kot na pravem testu. <br>
+    Čas pisanja: 40min.
     <p/>
     {#each questions as question, i}
         <div class="obdobje">

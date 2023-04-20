@@ -18,6 +18,17 @@ Program bo ob kliku na gumb `Prikaži rezultate` preveril vaše odgovore.
 - vse lahko pišete tudi z malimi začetnicami. Programu je popolnoma vseeno kako napišete ta tekst.
 - v načinu učenja se še vedno pojavijo vse anotacije, ki jih lahko uporabite, če si želite pomagati. V prihodnje bom dodal gumb za odstranitev anotacij.
 
+### Generiranje testov
+Na začetnem zaslonu bi se vam moralo pojaviti naslednje. Tukaj lahko izberete, kateri test bi želeli generirati.
+
+![slika](https://user-images.githubusercontent.com/52399966/233276794-9996e728-7eb2-440e-84f9-8020379639be.png)
+
+Program vam bo ob kliku na enega izmed gumbov popeljal na stran, na kateri dobite vaš željen, naključno generiran test. Ta modul črpa večino vprašanj iz testov LUM, ampak seveda to niso čisto vsa vprašanja. To je bolj mišljeno kot nek dodatek, da lahko dijaki vidijo kako približno izgleda test in kakšna so vprašanja.
+
+S pritiskom na <b>CTRL+P</b> na tipkovnici, lahko natisnete ta test.
+
+![slika](https://user-images.githubusercontent.com/52399966/233277567-097723a7-415a-4a10-84d3-2ad8a5568fc3.png)
+
 ### Programski jezik in rešitve
 - Spletna stran je spisana v [JavaScript](https://js.org/)/[TypeScript](https://www.typescriptlang.org/) programskem jeziku, v frameworku, ki se imenuje [Svelte](https://svelte.dev/).
 - Koda se poganja z naslednjimi ukazi, ki potrebujejo [npm nameščen](https://www.npmjs.com/): `npm i && npm run dev`
