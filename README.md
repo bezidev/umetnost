@@ -48,7 +48,8 @@ V primeru, da se spodaj pojavi nekaj za komentiranje, lahko to mirne volje zapre
 Za zadnjo oddajo mislim vse skupaj prestaviti tudi na lokalni server.
 
 ### Trenutna verzija
-Trenutna verzija je vedno na voljo na https://umetnost.beziapp.si.
+Trenutna verzija je in bo vedno na voljo na https://umetnost.beziapp.si. V primeru da verzija ni na voljo, me lahko kontaktirate (najdite me v šoli ali pa mi [pišite na šolski elektronski naslov](mailto:mitja.severkar@gimb.org)). Stran bom poskušal obdržati vsa leta svojega šolanja na Bežigradu, ampak ne morem garantirati, da bodo informacije na tej spletni strani ažurne, ko se bo profesorica Mastnak upokojila in bo prišel nov profesor oz. profesorica.
+
 Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa vodi na to verzijo.
 
 ## Kaj je še treba popraviti?
@@ -58,7 +59,7 @@ Ta verzija vsebuje zadnje spremembe in je vedno aktivna. Povezava iz BežiAppa v
 - [x] Dopolni van Eyckovo sliko Giovanni Arnolfini
 - [x] Naloži zapiske za L'avenir
 - [x] Dodaj proper vire
-- [ ] Migracija na BežiDev organizacijo.
+- [x] Migracija na BežiDev organizacijo.
 - [x] Dodaj naključni algoritem brez ponavljanja slik
 
 ## Razne slikice
