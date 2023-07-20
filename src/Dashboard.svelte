@@ -272,7 +272,7 @@
 					<div on:click={() => navigate(`/slike/${i}`)}>
 						<Paper>
 							<!-- svelte-ignore a11y-missing-attribute -->
-							<div style="display: inline-block; position: relative; height: 8vh;"><img src={`${PREFIX}small/${picture.filename}`} style="object-fit: contain; height: 100%;"></div>
+							<div style="display: inline-block; position: relative; height: 8vh;"><img src={`${PREFIX}small/${picture.filename}`} style="object-fit: contain; height: 100%;" alt="{picture.title}"></div>
 							<div style="width: 10px; display: inline-block;"></div>
 							<div style="display: inline-block;">
 								<Title>{picture.title}</Title>

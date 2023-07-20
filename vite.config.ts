@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
+import viteCompression from 'vite-plugin-compression';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: { exclude: ["svelte-navigator"] },
-  plugins: [svelte()],
+  plugins: [svelte(), viteCompression()],
 })
