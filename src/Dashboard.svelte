@@ -153,8 +153,8 @@
 			<AccordionContent>
 				<h2>L'avenir</h2>
 				V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
-				<li><a href="https://cloud.severkar.eu/s/teN43FpyRaiqKbx">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
-				<li><a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a></li>
+				<li><a href="https://cloud.severkar.eu/index.php/s/EoWL8BdRWgp846w">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
+				<li><a href="https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd">https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd</a></li>
 				<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
 			</AccordionContent>
 		</Panel>
@@ -244,7 +244,7 @@
 				<p/>
 				
 				Ob 22.05:
-				<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/s/dRQpJgW35GJsNer">https://cloud.severkar.eu/s/dRQpJgW35GJsNer</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
+				<li>V mapo za L'avenir na povezavi <a href="https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd">https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd</a> je bilo dodanih še nekaj skenov tistih listov, ki smo si jih lahko vzeli v galeriji.</li>
 				<li>Vprašal sem prof. Tanjo Mastnak in dodatno potrdil dejstva: surrealizem se res začne v Franciji, abstraktna umetnost pa je vsepovsod po svetu in nima svojega začetka v kaki specifični lokaciji.</li>
 				<li>Dodal sem še opis vrat pri sliki Pred lovom, slikarja Šubica.</li>
 			</AccordionContent>
@@ -289,7 +289,7 @@
 
 	<h2>Dodatni viri in zapiski</h2>
 	Učenje umetnostne zgodovine na Gimnaziji Bežigrad je težko. Čez leta so dijaki ustvarili mnogo zapiskov, tukaj pa zbiramo najboljše.
-	<li><a href="https://cloud.severkar.eu/s/XCGSDL7WJjsZ9Fe">Zapiski 2022A (1.A v šolskem letu 2022/2023). Na tej povezavi se nahajajo tudi vsi pojmi.</a></li>
+	<li><a href="https://cloud.severkar.eu/index.php/s/oKoGAEPaeKN5zxc">Zapiski 2022A (1.A v šolskem letu 2022/2023). Na tej povezavi se nahajajo tudi vsi pojmi.</a></li>
 
 	<h2>Viri</h2>
 	<li>dr. Tanja Mastnak - profesorica umetnosti na Gimnaziji Bežigrad</li>
