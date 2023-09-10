@@ -144,21 +144,6 @@
 	<h4>Katalog slik, katere obravnavamo pri umetnostni zgodovini na Gimnaziji Bežigrad.</h4>
 
 	<b>POMEMBNO:</b> Če želite imeti pojme za test in druge zapiske, pojdite do dna strani, kjer boste našli razdelek "Dodatni viri in zapiski". <br>
-	<b>POMEMBNO OBVESTILO:</b> To, da je konec testov likovne umetnosti za šolsko leto 2022/2023 še ne pomeni, da ta spletna stran ne bo delovala. Želim si, da bi si čim več generacij prvošolcev pomagalo s to spletno stranjo, saj sem se zanjo res potrudil in je res uporabna. Spletno stran bom obdržal vsaj do konca svojega šolanja na Bežigradu (še kaka 4 leta).
-
-	<p/>
-	<Accordion>
-		<Panel>
-			<Header>L'avenir</Header>
-			<AccordionContent>
-				<h2>L'avenir</h2>
-				V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
-				<li><a href="https://cloud.severkar.eu/index.php/s/EoWL8BdRWgp846w">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
-				<li><a href="https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd">https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd</a></li>
-				<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
-			</AccordionContent>
-		</Panel>
-	</Accordion>
 
 	<h2>Testi</h2>
 	BežiApp Umetnost lahko sedaj tudi generira teste likovne umetnosti, ki so vam lahko v pomoč pri vaji. Testi so narejeni tako, da čim bolj oponašajo realne teste. Slike so izbrane naključno, a so še vedno v skladju s tem, kar pišete na testu.
@@ -176,19 +161,19 @@
 	<h2>Zadnje spremembe</h2>
 	<b>To je kar pomemben del, saj tukaj objavljam vse spremembe, ki so bile narejene. Tako lahko preprosto vidite, kaj sem spremenil in tudi popravite svoje zapiske v skladu s tem.</b>
 
-	<h3>9. 4. 2023</h3>
-	Ob 15.00:
-	<li><b>POMEMBNO: Ime slike Le Moulin de la Galete je bilo spremenjeno v Le Moulin de la Galette (dva T-ja).</b></li>
-	<li>Sedaj pri načinu učenja izloči vsa nepotrebna (izločena) obdobja.</li>
-	<li>Preklopil sem na algoritem, ki poskrbi, da se vse slike servirajo. To pomeni, da boste šli čez vse slike, preden začnete z novim krogom. V vsakemu krogu se slika pojavi samo enkrat. Aplikacija vas sedaj obvesti, kdaj zaključite krog.</li>
-	<li>Dodani so bili zapiski za oba izmed testov.</li>
-
-	<p/>
-
 	<Accordion>
 		<Panel>
 			<Header>Starejše spremembe</Header>
 			<AccordionContent>
+				<h3>9. 4. 2023</h3>
+				Ob 15.00:
+				<li><b>POMEMBNO: Ime slike Le Moulin de la Galete je bilo spremenjeno v Le Moulin de la Galette (dva T-ja).</b></li>
+				<li>Sedaj pri načinu učenja izloči vsa nepotrebna (izločena) obdobja.</li>
+				<li>Preklopil sem na algoritem, ki poskrbi, da se vse slike servirajo. To pomeni, da boste šli čez vse slike, preden začnete z novim krogom. V vsakemu krogu se slika pojavi samo enkrat. Aplikacija vas sedaj obvesti, kdaj zaključite krog.</li>
+				<li>Dodani so bili zapiski za oba izmed testov.</li>
+
+				<p/>
+
 				<h3>6. 4. 2023</h3>
 				Ob 22.10:
 				<li><b>POMEMBNO: Dodana je bila slika Kobilce, in sicer Pariška branjevka. Ta sodi v realizem.</b></li>
@@ -290,6 +275,24 @@
 	<h2>Dodatni viri in zapiski</h2>
 	Učenje umetnostne zgodovine na Gimnaziji Bežigrad je težko. Čez leta so dijaki ustvarili mnogo zapiskov, tukaj pa zbiramo najboljše.
 	<li><a href="https://cloud.severkar.eu/index.php/s/oKoGAEPaeKN5zxc">Zapiski 2022A (1.A v šolskem letu 2022/2023). Na tej povezavi se nahajajo tudi vsi pojmi.</a></li>
+
+	<h2>Arhiv</h2>
+	Tukaj se nabirajo predvsem nepomembne stvari za trenutno generacijo. Tega ne bo v testu in je nepomembno, zato je arhivirano tukaj.
+
+	<p/>
+
+	<Accordion>
+		<Panel>
+			<Header>L'avenir</Header>
+			<AccordionContent>
+				<h2>L'avenir</h2>
+				V šolskem letu 2022/2023 na Gimnaziji Bežigrad pišemo 2. test iz razstave v Mestni galeriji, L'avenir. Nekaj zapiskov in slik je na naslednjih straneh/povezavah:
+				<li><a href="https://cloud.severkar.eu/index.php/s/EoWL8BdRWgp846w">Vrhunski zapiski za L'avenir. Najlepša hvala Anji.</a></li>
+				<li><a href="https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd">https://cloud.severkar.eu/index.php/s/LB4Keqe2XPq7gTd</a></li>
+				<li><a href="https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_">https://drive.google.com/drive/folders/1-0JmbZDgVXD_jOxFSS6-2jGlotqJQf6_</a></li>
+			</AccordionContent>
+		</Panel>
+	</Accordion>
 
 	<h2>Viri</h2>
 	<li>dr. Tanja Mastnak - profesorica umetnosti na Gimnaziji Bežigrad</li>
